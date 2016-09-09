@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章详情页</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/blog.article.info.css">
+</head>
+<body>
+    <div id="navbar" class="default">
+        <div class="nav">
+            <ul>
+                <li v-for="nav in navs" v-bind:class="{ 'active':nav.url == activeNav }">
+                    <a href="{{ nav.url }}">{{ nav.name }}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="article w800">
+            <h2>的环境撒华杰大厦地方都会沙发</h2>
+            <div class="info">
+                <span>日期：<em>2016.01.02</em></span>
+                <span>分类：<em>前端</em></span>
+                <span>标签：<em>js</em></span>
+            </div>
+            <div class="text">
+                <p>解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；</p>
+                <p>解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；</p>
+                <p>解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；</p>
+                <img src="../static/img/1.jpg" alt="">
+                <p>解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；
+                    解放路口的手机发空间独守空房的司法鉴定所反对思考分开都是分开大叔控jfk都是疯狂的事风纪扣；都是分开；</p>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/jquery-3.1.0.min.js"></script>
+    <script src="../static/js/vue/vue.js"></script>
+    <script src="../static/js/navData.js"></script>
+    <script>
+        $(function(){
+            navData.activeNav = 'blog.article.info.html';
+            new Vue({
+                el: '.nav',
+                data: navData
+            });
+        })
+    </script>
+</body>
+</html>

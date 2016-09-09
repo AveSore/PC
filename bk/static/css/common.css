@@ -1,0 +1,59 @@
+@import "navbar.css";
+html,body{
+    cursor: default;
+    font-size: 12px;
+}
+html,body,ul,li,h1,h2,h3,h4,h5,h6,h7,p,span{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+em{
+    font-style: normal;
+}
+.w1190{
+    width: 1190px;
+    margin: 0 auto;
+}
+.w800{
+    width: 800px;
+    margin: 0 auto;
+}
+/*三角形*/
+.triangle{
+    width: 0;
+    height: 0;
+}
+.triangle-up{
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+.triangle-down{
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+}
+.triangle-left{
+    border-top: 50px solid transparent;
+    border-right: 100px solid red;
+    border-bottom: 50px solid transparent;
+}
+.triangle-right{
+    border-top: 50px solid transparent;
+    border-left: 100px solid red;
+    border-bottom: 50px solid transparent;
+}
+

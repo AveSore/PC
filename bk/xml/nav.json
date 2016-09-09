@@ -1,0 +1,10 @@
+[
+  {"name":"首页","url":"defaut.html"},
+  {"name":"首页2","url":"defaut2.html"},
+  {"name":"关于我1","url":"about.html"},
+  {"name":"关于我2","url":"about.2.html"},
+  {"name":"关于我3","url":"about.3.html"},
+  {"name":"博客列表1","url":"blog.list.html"},
+  {"name":"博客列表2","url":"blog.list.2.html"},
+  {"name":"博客详情页","url":"blog.article.info.html"}
+]

@@ -1,0 +1,81 @@
+
+#content{
+    padding-top: 50px;
+}
+#content .list{
+    display: flex;
+}
+#content ul{
+    width: 32%;
+    margin-right: 2%;
+}
+#content ul:last-child{
+    margin-right: 0;
+}
+#content .list li{
+    background: rgba(0,0,0,0.5);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+#content .list h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+#content .list h2 a{
+    color: #fccc5d;
+}
+#content .list h2 a:hover{
+    text-decoration: underline;
+}
+#content .list h2 i{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fccc5d;
+}
+#content .list .cate{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #50332b;
+}
+#content .list .cate span{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 15px;
+}
+#content .list .cate span i{
+    color: #fccc5d;
+    margin-right: 15px;
+}
+#content .list .date{
+    padding: 5px 0 0 7px;
+}
+#content .list .tag{
+    padding: 5px 0 0 7px;
+}
+#content .list .info{
+    overflow: hidden;
+}
+#content .list .cover-img{
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#content .list .cover-img img{
+    width: 100%;
+}
+#content .list .desc{
+    text-indent: 2em;
+    width: 90%;
+    font-size: 15px;
+    line-height: 25px;
+    color: #50332b;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

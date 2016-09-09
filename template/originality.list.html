@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="short icon" href="../static/_lib/img/favicon.ico">
+    <link rel="stylesheet" href="../static/_lib/css/common.css">
+    <link rel="stylesheet" href="../static/css/nav.css">
+    <link rel="stylesheet" href="../static/_lib/bootstrap/css/font.css">
+    <link rel="stylesheet" href="../static/css/originality.list.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar fr" id="navbar">
+            <ul>
+                <li v-for="nav in navs" :class="{ 'active': active == nav.name }"><a href="{{ nav.url }}" data-hover="{{ nav.name }}" title="{{ nav.title }}">{{ nav.name}}</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div class="w1190">
+            <div class="list">
+                <ul>
+                    <li v-for="list in lists"  v-if="$index % 3 == 0">
+                        <h2><i class="glyphicon glyphicon-pencil"></i>
+                            <a v-bind:href="list.url" :title="list.h1">{{ list.h1 }}</a>
+                        </h2>
+                        <div class="cate">
+                             <span class="date">
+                                <i class="glyphicon glyphicon-time"></i>{{ list.year }}-{{ list.month }}
+                             </span>
+                            <span class="tag">
+                                <i class="glyphicon glyphicon-tags"></i>标签
+                            </span>
+                        </div>
+                        <div class="info">
+                            <div class="cover-img">
+                                <img v-bind:src="list.imgUrl" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>{{ list.desc }}</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li v-for="list in lists" v-if="$index % 3 == 1">
+                        <h2><i class="glyphicon glyphicon-pencil"></i>
+                            <a v-bind:href="list.url" :title="list.h1">{{ list.h1 }}</a>
+                        </h2>
+                        <div class="cate">
+                             <span class="date">
+                                <i class="glyphicon glyphicon-time"></i>{{ list.year }}-{{ list.month }}
+                             </span>
+                            <span class="tag">
+                                <i class="glyphicon glyphicon-tags"></i>标签
+                            </span>
+                        </div>
+                        <div class="info">
+                            <div class="cover-img">
+                                <img v-bind:src="list.imgUrl" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>{{ list.desc }}</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li v-for="list in lists" v-if="$index % 3 == 2">
+                        <h2><i class="glyphicon glyphicon-pencil"></i>
+                            <a v-bind:href="list.url" :title="list.h1">{{ list.h1 }}</a>
+                        </h2>
+                        <div class="cate">
+                             <span class="date">
+                                <i class="glyphicon glyphicon-time"></i>{{ list.year }}-{{ list.month }}
+                             </span>
+                            <span class="tag">
+                                <i class="glyphicon glyphicon-tags"></i>标签
+                            </span>
+                        </div>
+                        <div class="info">
+                            <div class="cover-img">
+                                <img v-bind:src="list.imgUrl" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>{{ list.desc }}</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../static/_lib/js/jquery-3.1.0.min.js"></script>
+    <script src="../static/_lib/js/vue/vue.js"></script>
+    <script src="../static/js/originality.list.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    background: #000;
+    font-size: 14px;
+    line-height: 20px;
+}
+#main{
+    margin: 50px 0;
+}
+#main .w1190{
+    background: #ebebeb;
+    overflow: hidden;
+}
+.desc{
+    width: 20%;
+    min-height: 500px;
+    background: #234463;
+    color: #e3effb;
+    padding-bottom: 100px;
+}
+.desc .img{
+    width: 130px;
+    height: 180px;
+    overflow: hidden;
+    margin: 50px auto;
+    border: 5px solid #e3effb;
+}
+.desc .img img{
+    width: 130px;
+    height: 180px;
+}
+.desc .person-info{
+    width: 160px;
+    margin-left: 20px;
+}
+.desc .person-info li{
+    line-height: 30px;
+}
+.desc .person-info .glyphicon{
+    margin-right: 5px;
+}
+.desc .skill{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.desc .skill li{
+    border-bottom: 8px solid #93a9bc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.desc p{
+    color: #93a9bc;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.desc .hobby{
+    width: 160px;
+}
+.desc .hobby li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    color: #93a9bc;
+}
+.desc .hobby li i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #93a9bc;
+    border-radius: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+.content{
+    width: 70%;
+    min-height: 500px;
+    color: #234463;
+    margin-right: 5%;
+}
+.content h1.name{
+    margin: 20px 0 10px 0;
+    font-weight: 900;
+}
+.content p.target{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.content .list{
+    margin: 20px 0;
+}
+.content .list .info{
+    margin-bottom: 20px;
+}
+.content .list .info span{
+    display: inline-block;
+    color: #234463;
+    margin-right: 30px;
+}
+.content .list h2{
+    border-bottom: 2px solid #234463;
+    margin-bottom: 10px;
+}

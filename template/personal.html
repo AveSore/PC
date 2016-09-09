@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="short icon" href="../static/_lib/img/favicon.ico">
+    <link rel="stylesheet" href="../static/_lib/css/common.css">
+    <link rel="stylesheet" href="../static/_lib/bootstrap/css/font.css">
+    <link rel="stylesheet" href="../static/css/nav.css">
+    <link rel="stylesheet" href="../static/css/personal.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar fr" id="navbar">
+            <ul>
+                <li v-for="nav in navs" :class="{ 'active': active == nav.name }"><a href="{{ nav.url }}" data-hover="{{ nav.name }}" title="{{ nav.title }}">{{ nav.name }}</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <ul id="personal-list">
+            <li>
+                <i class="glyphicon glyphicon-lock"></i>
+                <h2>PC站点</h2>
+                <p>vue</p>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-lock"></i>
+                <h2>PC站点</h2>
+                <p>react</p>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-lock"></i>
+                <h2>PC站点</h2>
+                <p>angular</p>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-phone"></i>
+                <h2>WAP站点</h2>
+                <p>react Native</p>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-phone"></i>
+                <h2>APP站点</h2>
+                <p>html5 + MUI + hbuilder</p>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-phone"></i>
+                <h2>APP站点</h2>
+                <p>hybrid+appcan</p>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-lock"></i>
+                <h2>后端站点</h2>
+                <p>vue</p>
+            </li>
+            <!--<li v-for="list in lists">
+                <div class="category"><h1>{{ list.category }}</h1></div>
+                <div class="list fr">
+                    <div class="tag-lists">
+                        <div class="info" v-for="info in list.infos">
+                            <h2><a href="">{{ info.title }}</a></h2>
+                            <div class="time-tag">
+                                <span>日期：<em>{{ info.date }}</em></span>
+                                <span>标签：<em>{{ info.tag }}</em></span>
+                            </div>
+                            <p class="desc">{{ info.desc }}</p>
+                        </div>
+                    </div>
+                </div>
+            </li>-->
+        </ul>
+    </div>
+    <script src="../static/_lib/js/jquery-3.1.0.min.js"></script>
+    <script src="../static/_lib/js/vue/vue.js"></script>
+    <script src="../static/js/personal.js"></script>
+</body>
+</html>

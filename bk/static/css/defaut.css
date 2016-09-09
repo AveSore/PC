@@ -1,0 +1,61 @@
+body{
+    background: #000 url("../img/default.bg.jpg") repeat center;
+}
+#main{
+}
+#main .introduce{
+    color: #fff;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+#main .introduce h1{
+    font-size: 50px;
+    line-height: 130px;
+    -webkit-animation: fadeInDownBig 2s ease;
+    animation: fadeInDownBig 2s ease;
+}
+#main .introduce p{
+    font-size: 30px;
+    line-height: 30px;
+    animation: scale 2s ease;
+    -webkit-animation: scale 2s ease;	/* Safari 和 Chrome */
+}
+@-webkit-keyframes fadeInDownBig {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -2000px, 0);
+        transform: translate3d(0, -2000px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInDownBig {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -2000px, 0);
+        transform: translate3d(0, -2000px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1.5);
+    }
+    50%{
+        -webkit-transform: scale(.5);
+    }
+    100%{
+        -webkit-transform: scale(1);
+    }
+}
