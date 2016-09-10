@@ -1,40 +1,41 @@
-#content {
+
+#content{
   width: 60%;
   margin: 0 auto;
-  padding-bottom: 50px; }
-
-#personal-list {
+  padding-bottom: 50px;
+}
+#personal-list{
   color: #fff;
   position: relative;
   padding-bottom: 50px;
-  height: 1000px; }
-
-#personal-list li {
+  height: 1000px;
+}
+#personal-list li{
   text-align: center;
   outline: 1px solid #fff;
   width: 25%;
   height: 200px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0,0,0,0.3);
   float: left;
   color: #50332b;
   position: relative;
-  margin-bottom: 30px; }
-
-#personal-list li i {
+  margin-bottom: 30px;
+}
+#personal-list li i{
   font-size: 40px;
   margin-top: 50px;
-  margin-bottom: 10px; }
-
-#personal-list li h2 {
-  font-size: 20px; }
-
-#personal-list li p {
-  font-size: 16px; }
-
-#personal-list li:hover {
+  margin-bottom: 10px;
+}
+#personal-list li h2{
+  font-size: 20px;
+}
+#personal-list li p{
+  font-size: 16px;
+}
+#personal-list li:hover{
   color: #fff;
-  background: #fccc5d; }
-
+  background: #fccc5d;
+}
 /*
 #personal-list>li{
     position: absolute;
@@ -105,5 +106,3 @@
     font-size: 14px;
     line-height: 20px;
 }*/
-
-/*# sourceMappingURL=personal.css.map */

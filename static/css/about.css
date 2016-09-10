@@ -1,112 +1,94 @@
-body{
-    background: #000 url("../../static/img/bg.2.jpg") repeat-y ;
-    background-size: 100%;
-    font-size: 14px;
-    line-height: 20px;
-}
-#content{
-    margin: 50px 0;
-}
-#content .w1190{
-    background: #ebebeb;
-    overflow: hidden;
-}
-.desc{
-    width: 20%;
-    min-height: 500px;
-    background: #234463;
-    color: #e3effb;
-    padding-bottom: 100px;
-}
-.desc .img{
-    width: 130px;
-    height: 180px;
-    overflow: hidden;
-    margin: 50px auto;
-    border: 5px solid #e3effb;
-}
-.desc .img img{
-    width: 130px;
-    height: 180px;
-}
-.desc .person-info{
-    width: 160px;
-    margin-left: 20px;
-}
-.desc .person-info li{
-    line-height: 30px;
-}
-.desc .person-info .glyphicon{
-    margin-right: 5px;
-}
-.desc .skill{
-    width: 100px;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-.desc .skill li{
-    border-bottom: 8px solid #93a9bc;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-.desc p{
-    color: #93a9bc;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 70px;
-}
-.desc .hobby{
-    width: 160px;
-}
-.desc .hobby li{
-    float: left;
-    width: 50%;
-    text-align: center;
-    margin-top: 20px;
-    color: #93a9bc;
-}
-.desc .hobby li i{
-    width: 40px;
-    height: 40px;
-    border: 2px solid #93a9bc;
-    border-radius: 40px;
-    line-height: 40px;
-    margin-left: 20px;
-    display: block;
-    margin-bottom: 20px;
-}
-.content{
-    width: 70%;
-    min-height: 500px;
-    color: #234463;
-    margin-right: 5%;
-}
-.content h1.name{
-    margin: 20px 0 10px 0;
-    font-weight: 900;
-}
-.content p.target{
-    margin-bottom: 40px;
-    font-weight: bold;
-}
-.content .list{
-    margin: 20px 0;
-}
-.content .list .info{
-    margin-bottom: 20px;
-}
-.content .list .info span{
-    display: inline-block;
-    color: #234463;
-    margin-right: 30px;
-}
-.content .list h2{
-    border-bottom: 2px solid #234463;
-    margin-bottom: 10px;
-}
-.content .list h2 i{
-    margin-right: 10px;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
+@import url(../_lib/css/common.css);
+@import url(../css/nav.css);
+body {
+  background: #000 url("../img/bg.2.jpg") repeat-y;
+  background-size: 100%;
+  font-size: 14px;
+  line-height: 20px; }
+
+#content {
+  margin: 50px 0 50px 0; }
+#content .w1190 {
+  background: #ebebeb;
+  overflow: hidden; }
+
+.desc {
+  width: 20%;
+  min-height: 500px;
+  background: #234463;
+  color: #e3effb;
+  padding-bottom: 100px; }
+.desc .img {
+  width: 130px;
+  height: 180px;
+  overflow: hidden;
+  margin: 50px auto 50px auto;
+  border: 5px solid #e3effb; }
+.desc img {
+  width: 130px;
+  height: 180px; }
+.desc .person-info {
+  width: 160px;
+  margin: 0 0 0 20px; }
+.desc .person-info li {
+  line-height: 30px; }
+.desc .person-info .glyphicon {
+  margin: 0 5px 0 0; }
+.desc .skill {
+  width: 100px;
+  margin: 50px 0 0 20px; }
+.desc .skill li {
+  border-bottom: 8px solid #93a9bc;
+  padding-bottom: 10px;
+  margin: 0 0 20px 0; }
+.desc p {
+  color: #93a9bc;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 70px 0 0 20px; }
+.desc .hobby {
+  width: 160px; }
+.desc .hobby li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #93a9bc; }
+.desc .hobby li i {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #93a9bc;
+  border-radius: 40px;
+  line-height: 40px;
+  display: block;
+  margin: 0 0 20px 20px; }
+
+.content {
+  width: 70%;
+  min-height: 500px;
+  color: #234463;
+  margin: 0 5% 0 0; }
+.content h1.name {
+  margin: 20px 0 10px 0;
+  font-weight: 900; }
+.content p.target {
+  margin-bottom: 40px;
+  margin: 0 0 40px 0;
+  font-weight: bold; }
+.content .list {
+  margin: 20px 0 20px 0; }
+.content .list .info {
+  margin: 0 0 20px 0; }
+.content .list .info span {
+  display: inline-block;
+  color: #234463;
+  margin: 0 30px 0 0; }
+.content .list h2 {
+  border-bottom: 2px solid #234463;
+  margin: 0 0 10px 0; }
+.content .list h2 i {
+  margin-right: 10px;
+  font-size: 40px;
+  margin: 0 0 10px 0; }
+
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,85 @@
+$lightYellow: #fccc5d;
+@mixin marginBlock($top:0,$right:0,$bottom:0,$left:0) {
+  margin: $top $right $bottom $left;
+}
+#content{
+  & {
+    padding-top: 50px;
+  }
+  .list{
+    display: flex;
+    li{
+      background: rgba(black,0.5);
+      border-radius: 6px;
+      @include marginBlock($bottom:20px);
+    }
+    h2{
+      font-size: 20px;
+      @include marginBlock($top:10px,$bottom:15px);
+      text-align: center;
+      a{
+        color: $lightYellow;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+      i{
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 50%;
+        color: $lightYellow;
+      }
+    }
+    .cate{
+      text-align: center;
+      @include marginBlock($bottom:15px);
+      color: #50332b;
+      span{
+        display: inline-block;
+        font-size: 14px;
+        @include marginBlock($right:15px);
+        i{
+          color: $lightYellow;
+          @include marginBlock($right:15px);
+        }
+      }
+    }
+    .date{
+      padding: 5px 0 0 7px;
+    }
+    .tag{
+      padding: 5px 0 0 7px;
+    }
+    .info{
+      overflow: hidden;
+    }
+    .cover-img{
+      text-align: center;
+      width: 200px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 20px;
+      @include marginBlock(0,auto,10px,auto);
+      img{
+        width: 100%;
+      }
+    }
+    .desc{
+      text-indent: 2em;
+      width: 90%;
+      font-size: 15px;
+      line-height: 25px;
+      color: #50332b;
+      @include marginBlock($left:20px,$bottom:10px);
+    }
+  }
+  ul{
+    & {
+      width: 32%;
+      @include marginBlock($right:2%);
+    }
+    &:last-child {
+      @include marginBlock();
+    }
+  }
+}

@@ -1,73 +1,73 @@
+.container {
+  padding-top: 50px; }
 
-.container{
-    padding-top: 50px;
-}
-.row{
-    overflow: hidden;
-    padding: 0 47px;
-}
-.list{
-    border-left: 2px dashed #fff;
-}
-.list li{
-    background: rgba(0,0,0,0.3);
-    border-radius: 6px;
-    margin: 0 0 20px 90px;
-    position: relative;
-}
-.list li:hover{
-    background: rgba(0,0,0,0.5);
-}
-.list h2{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.list .date{
-    position: absolute;
-    display: block;
-    background: rgba(0,0,0,1);
-    color: #fff;
-    left: -125px;
-    top: 30px;
-    padding: 5px 0 0 7px;
-    border-radius: 3px;
-}
-.list .date em{
-    display: block;
-    font-size: 20px;
-    line-height: 20px;
-    padding: 4px 5px 3px 10px;
-    font-weight: bold;
-}
-.list .triangle{
-    position: absolute;
-    top:37px;
-}
-.list .triangle-left{
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-}
-.list .triangle02{
-    border-right: 40px solid rgba(0,0,0,0.3);
-    left: -40px;
-}
-.list .info{
-    overflow: hidden;
-}
-.list .cover-img{
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    border:1px solid rgba(255,255,255,0.3);
-    border-radius: 20px;
-}
-.list .desc{
-    width: 300px;
-    font-size: 15px;
-    line-height: 25px;
-    color: #fff;
-    margin-left: 20px;
-}
-.list .tags{
-    background: rgba(0,0,0,0.5);
-}
+.row {
+  overflow: hidden;
+  padding: 0 47px; }
+
+.list {
+  border-left: 2px dashed #fff; }
+
+.list li {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin: 0 0 20px 90px;
+  position: relative; }
+
+.list li:hover {
+  background: rgba(0, 0, 0, 0.5); }
+
+.list h2 {
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.list .date {
+  position: absolute;
+  display: block;
+  background: black;
+  color: #fff;
+  left: -125px;
+  top: 30px;
+  padding: 5px 0 0 7px;
+  border-radius: 3px; }
+
+.list .date em {
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 4px 5px 3px 10px;
+  font-weight: bold; }
+
+.list .triangle {
+  position: absolute;
+  top: 37px; }
+
+.list .triangle-left {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; }
+
+.list .triangle02 {
+  border-right: 40px solid rgba(0, 0, 0, 0.3);
+  left: -40px; }
+
+.list .info {
+  overflow: hidden; }
+
+.list .cover-img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px; }
+
+.list .desc {
+  width: 300px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  margin-left: 20px; }
+
+.list .tags {
+  background: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=blog.list.css.map */

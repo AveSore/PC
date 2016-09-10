@@ -23,67 +23,79 @@ border-box:内边距与边是包含在了width/height之内，譬如设置了wid
 将元素设置为border-box会很方便你进行样式布局，
 这样的话你就可以在父元素设置高宽限制而不担心子元素的内边距或者边打破了这种限制。
 */
-body{
+body {
     background: #000 url("../img/bg.png") repeat;
 }
-h1,h2,h3,h4,h5,h6,p,ul,li{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
-a{
+a {
     text-decoration: none;
 }
-ul,li{
+ul,li {
     list-style-type: none;
 }
-.fl{
+.fl {
     float: left;
 }
-.fr{
+.fr {
     float: right;
 }
-em{
+em {
     font-style: normal;
 }
-.w1190{
+.w1190 {
     width: 1190px;
     margin: 0 auto;
 }
-.w800{
+.w800 {
     width: 800px;
     margin: 0 auto;
 }
 /*三角形*/
-.triangle{
+.triangle {
     width: 0;
     height: 0;
 }
-.triangle-up{
+.triangle-up {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 100px solid red;
 }
-.triangle-down{
+.triangle-down {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-top: 100px solid red;
 }
-.triangle-left{
+.triangle-left {
     border-top: 50px solid transparent;
     border-right: 100px solid red;
     border-bottom: 50px solid transparent;
 }
-.triangle-right{
+.triangle-right {
     border-top: 50px solid transparent;
     border-left: 100px solid red;
     border-bottom: 50px solid transparent;
 }
-.clearfix{
+.clearfix {
     clear: both;
 }
-.empty{
+.empty {
     width: 0;
     height: 0;
     padding: 0 !important;
     border: none !important;
+}
+#page {
+    width: 300px;
+    margin: 0 auto;
 }
