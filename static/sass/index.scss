@@ -1,44 +1,31 @@
-@import "../_lib/css/common.css";
-@import "../css/nav.css";
-@mixin fixedBlock($top:0,$left:0) {
-  position: fixed;
-  top:$top / 100 * 100%;
-  left: $left;
+@import "common";
+@import "nav";
+html{
+  background: url("../img/index.bg.jpg") no-repeat top left;
+  background-size: cover;
 }
 body {
-  background: url("../img/index.bg.jpg") no-repeat;
-  background-size: 100%;
-}
-.bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.header {
-  z-index: 7;
-  @include fixedBlock();
 }
 .content {
-  background: rgba(0,0,0,0.3);
-  color: #fff;
-  z-index: 5;
-  width: 100%;
-  text-align: center;
-  height: 200px;
-  margin-top: -100px;
-  @include fixedBlock(50,0);
-}
-.content {
+  & {
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    margin-top: -100px;
+    @include fixedBlock($top:50%);
+  }
   h1 {
-    margin: 30px 0 0 0;
+    @include marginBlock($top:30px);
     font-size: 50px;
     -webkit-animation: fadeInDownBig 2s ease;
     animation: fadeInDownBig 2s ease;
   }
   p {
     font-size: 30px;
-    margin: 50px 0 0 0;
+    @include marginBlock($top:50px);
     animation: scale 2s ease;
     -webkit-animation: scale 2s ease;
   }

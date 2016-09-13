@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <title>{{ title }}</title>
     <link rel="short icon" href="../static/_lib/img/favicon.ico">
-    <link rel="stylesheet" href="../static/_lib/bootstrap/css/font.css">
+    <link rel="stylesheet" href="../static/_lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/about.css">
 </head>
 <body>
-    <div class="header">
-        <div class="navbar fr" id="navbar">
-            <ul>
-                <li v-for="nav in navs" :class="{ 'active': active == nav.name }"><a href="{{ nav.url }}" data-hover="{{ nav.name }}" title="{{ nav.title }}">{{ nav.name}}</a></li>
-            </ul>
-        </div>
-    </div>
+    <header></header>
     <div id="content">
         <div class="w1190">
             <div class="desc fl">
                 <div class="img">
-                    <img src="../static/img/user.JPG" alt="">
+                    <picture>
+                        <source media="(max-width:800px)" srcset="../static/img/bg.1.jpg" />
+                        <img src="../static/img/user.JPG" alt="">
+                    </picture>
+
+
                 </div>
                 <ul class="person-info">
                     <li><i class="glyphicon glyphicon-user"></i>24岁</li>
@@ -101,7 +100,45 @@
         </div>
     </div>
     <script src="../static/_lib/js/jquery-3.1.0.min.js"></script>
+    <script src="../static/_lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="../static/_lib/js/vue/vue.js"></script>
     <script src="../static/js/about.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var code; //在全局 定义验证码
+            var code2; //在全局 定义验证码
+            function createCode() {
+                code = "";
+                var checkCode = $("#checkCode");
+                function RndNum(n) {
+                    var rnd = "";
+                    for (var i = 0; i < n; i++)
+                        rnd += Math.floor(Math.random() * 10);
+                    return rnd;
+                }
+                var num = RndNum(2);
+                var num2 = RndNum(2);
+                code = num + "+" + num2 + "=";
+                code2 = parseInt(num) + parseInt(num2);
+                if (checkCode) {
+                    checkCode.val(code);
+                }
+            }
+            createCode();
+            $("#input1").blur(function () {
+                var inputCode = $("#input1").val();
+                if (inputCode.length <= 0) {
+                    alert("请输入验证码！");
+                }
+                else if (inputCode != code2) {
+                    alert("验证码输入错误！");
+                    createCode(); //刷新验证码
+                }
+                else {
+                    alert("^-^ OK");
+                }
+            });
+        })
+    </script>
 </body>
 </html>

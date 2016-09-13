@@ -1,20 +1,129 @@
-@import url(../_lib/css/common.css);
-@import url(../css/nav.css);
+@charset "UTF-8";
+html,
 body {
-  background: url("../img/index.bg.jpg") no-repeat;
-  background-size: 100%; }
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  cursor: default;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  background: #000 url("../img/bg.png") repeat; }
 
-.bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; }
+/*
+一切应为Border-box,虽然很多初学者并不了解box-sizing这个属性，但是它确实相当的重要。而最好的理解它的方式就是看看它的两种取值:
+默认值为content-box，即当我们设置某个元素的height/width属性时，仅仅会作用于其内容尺寸。
+而所有的内边距与边都是在其之上的累加，譬如某个<div>标签设置为宽100，内边距为10，
+那么最终元素会占用120(100 + 2*10)的像素。
+border-box:内边距与边是包含在了width/height之内，譬如设置了width:100px的<div>无论其内边距或者边长设置为多少，
+其占有的大小都是100px。
+将元素设置为border-box会很方便你进行样式布局，
+这样的话你就可以在父元素设置高宽限制而不担心子元素的内边距或者边打破了这种限制。
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
 
-.header {
-  z-index: 7;
-  position: fixed;
-  top: 0%;
-  left: 0; }
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style-type: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+em {
+  font-style: normal; }
+
+.w1190 {
+  width: 1190px;
+  margin: 0 auto 0 auto; }
+
+.w800 {
+  width: 800px;
+  margin: 0 auto 0 auto; }
+
+/*三角形*/
+.triangle {
+  width: 0;
+  height: 0; }
+
+.triangle-up {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red; }
+
+.triangle-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red; }
+
+.triangle-left {
+  border-top: 50px solid transparent;
+  border-right: 100px solid red;
+  border-bottom: 50px solid transparent; }
+
+.triangle-right {
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent; }
+
+.clearfix {
+  clear: both; }
+
+.empty {
+  width: 0;
+  height: 0;
+  padding: 0 !important;
+  border: none !important; }
+
+header .navbar-default {
+  background: transparent;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0; }
+header #navbar li {
+  margin-right: 10px;
+  font-size: 18px; }
+  header #navbar li a {
+    color: #fff;
+    position: relative; }
+    header #navbar li a:before {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      overflow: hidden;
+      max-width: 0;
+      border-bottom: 2px solid #EEE048;
+      color: #EEE048;
+      content: attr(data-hover);
+      -webkit-transition: max-width 0.5s;
+      -moz-transition: max-width 0.5s;
+      transition: max-width 0.5s; }
+  header #navbar li.active a {
+    color: #EEE048;
+    background: transparent; }
+
+@media (max-width: 767px) {
+  header #navbar li a:before {
+    top: 10px; } }
+header #navbar li a:hover::before {
+  max-width: 100%; }
+
+html {
+  background: url("../img/index.bg.jpg") no-repeat top left;
+  background-size: cover; }
 
 .content {
   background: rgba(0, 0, 0, 0.3);
@@ -27,7 +136,6 @@ body {
   position: fixed;
   top: 50%;
   left: 0; }
-
 .content h1 {
   margin: 30px 0 0 0;
   font-size: 50px;

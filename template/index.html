@@ -15,16 +15,7 @@
     <link rel="stylesheet" href="../static/css/index.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo fl">
-            <img src="../static/_lib/img/logo/en.03.png" alt="" width="63" height="30">
-        </div>
-        <div class="navbar fr" id="navbar">
-            <ul>
-                <li v-for="nav in navs" :class="{ 'active': active == nav.name }"><a href="{{ nav.url }}" data-hover="{{ nav.name }}" title="{{ nav.title }}">{{ nav.name}}</a></li>
-            </ul>
-        </div>
-    </div>
+    <header></header>
     <div class="content">
         <h1>前端开发工程师</h1>
         <p>爱生活爱技术</p>

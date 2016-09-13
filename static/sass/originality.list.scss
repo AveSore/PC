@@ -1,10 +1,9 @@
+@import "common";
+@import "nav";
 $lightYellow: #fccc5d;
-@mixin marginBlock($top:0,$right:0,$bottom:0,$left:0) {
-  margin: $top $right $bottom $left;
-}
 #content{
   & {
-    padding-top: 50px;
+    @include paddingBlock($top:50px);
   }
   .list{
     display: flex;
@@ -25,7 +24,7 @@ $lightYellow: #fccc5d;
       }
       i{
         font-size: 30px;
-        padding: 10px;
+        @include paddingBlock(10px,10px,10px,10px);
         border-radius: 50%;
         color: $lightYellow;
       }
@@ -45,10 +44,10 @@ $lightYellow: #fccc5d;
       }
     }
     .date{
-      padding: 5px 0 0 7px;
+      @include paddingBlock(5px,0,0,7px);
     }
     .tag{
-      padding: 5px 0 0 7px;
+      @include paddingBlock(5px,0,0,7px);
     }
     .info{
       overflow: hidden;

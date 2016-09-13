@@ -1,0 +1,90 @@
+@import "function";
+html,
+body {
+  @include marginBlock();
+  @include paddingBlock();
+  cursor:default;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  background: #000 url("../img/bg.png") repeat;
+}
+/*
+一切应为Border-box,虽然很多初学者并不了解box-sizing这个属性，但是它确实相当的重要。而最好的理解它的方式就是看看它的两种取值:
+默认值为content-box，即当我们设置某个元素的height/width属性时，仅仅会作用于其内容尺寸。
+而所有的内边距与边都是在其之上的累加，譬如某个<div>标签设置为宽100，内边距为10，
+那么最终元素会占用120(100 + 2*10)的像素。
+border-box:内边距与边是包含在了width/height之内，譬如设置了width:100px的<div>无论其内边距或者边长设置为多少，
+其占有的大小都是100px。
+将元素设置为border-box会很方便你进行样式布局，
+这样的话你就可以在父元素设置高宽限制而不担心子元素的内边距或者边打破了这种限制。
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  @include marginBlock();
+  @include paddingBlock();
+}
+a {
+  text-decoration: none;
+}
+ul,li {
+  list-style-type: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+em {
+  font-style: normal;
+}
+.w1190 {
+  width: 1190px;
+  @include marginBlock(0,auto,0,auto);
+}
+.w800 {
+  width: 800px;
+  @include marginBlock(0,auto,0,auto);
+}
+/*三角形*/
+.triangle {
+  width: 0;
+  height: 0;
+}
+.triangle-up {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+.triangle-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}
+.triangle-left {
+  border-top: 50px solid transparent;
+  border-right: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+.triangle-right {
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+.clearfix {
+  clear: both;
+}
+.empty {
+  width: 0;
+  height: 0;
+  padding: 0 !important;
+  border: none !important;
+}

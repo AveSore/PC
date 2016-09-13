@@ -1,0 +1,16 @@
+@mixin absoluteBlock($top:0,$left:0) {
+  position: absolute;
+  top:$top;
+  left: $left;
+}
+@mixin fixedBlock($top:0,$left:0) {
+  position: fixed;
+  top:$top;
+  left: $left;
+}
+@mixin marginBlock($top:0,$right:0,$bottom:0,$left:0) {
+  margin: $top $right $bottom $left;
+}
+@mixin paddingBlock($top:0,$right:0,$bottom:0,$left:0) {
+  padding: $top $right $bottom $left;
+}

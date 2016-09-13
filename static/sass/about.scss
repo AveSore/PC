@@ -1,8 +1,5 @@
-@import "../_lib/css/common.css";
-@import "../css/nav.css";
-@mixin marginBlock($top:0,$right:0,$bottom:0,$left:0) {
-  margin: $top $right $bottom $left;
-}
+@import "common";
+@import "nav";
 $fontSize:  14px;
 $descBgColor : #234463;
 $descColor : #e3effb;
@@ -13,128 +10,127 @@ body{
   background-size: 100%;
   font-size: $fontSize;
   line-height: 20px;
-}
-#content{
-  & {
-    @include marginBlock(50px,0,50px,0);
-  }
-  .w1190 {
-    background: #ebebeb;
-    overflow: hidden;
-  }
-}
-.desc{
-  & {
-    width: 20%;
-    min-height: 500px;
-    background: $descBgColor;
-    color: $descColor;
-    padding-bottom: 100px;
-  }
-  .img {
-    width: 130px;
-    height: 180px;
-    overflow: hidden;
-    @include marginBlock(50px,auto,50px,auto);
-    border: 5px solid $descColor;
-  }
-  img {
-    width: 130px;
-    height: 180px;
-  }
-  .person-info{
+  #content{
     & {
-      width: 160px;
-      @include marginBlock(0,0,0,20px);
+      @include marginBlock(50px,0,50px,0);
     }
-    li {
-      line-height: 30px;
+    .w1190 {
+      background: #ebebeb;
+      overflow: hidden;
     }
-    .glyphicon{
-      @include marginBlock(0,5px,0,0);
-    }
-  }
-  .skill{
-    & {
-      width: 100px;
-      @include marginBlock(50px,0,0,20px);
-    }
-    li{
-      border-bottom: 8px solid $descHobbyColor;
-      padding-bottom: 10px;
-      @include marginBlock($bottom:20px);
-    }
-  }
-  p {
-    color: $descHobbyColor;
-    font-size: 15px;
-    font-weight: bold;
-    @include marginBlock(70px,0,0,20px);
-  }
-  .hobby{
-    & {
-      width: 160px;
-    }
-    li {
+    .desc{
       & {
-        float: left;
-        width: 50%;
-        text-align: center;
-        @include marginBlock($top:20px);
+        width: 20%;
+        min-height: 500px;
+        background: $descBgColor;
+        color: $descColor;
+        @include paddingBlock($bottom:100px);
+      }
+      .img {
+        width: 130px;
+        height: 180px;
+        overflow: hidden;
+        @include marginBlock(50px,auto,50px,auto);
+        border: 5px solid $descColor;
+      }
+      img {
+        width: 130px;
+        height: 180px;
+      }
+      .person-info{
+        & {
+          width: 160px;
+          @include marginBlock(0,0,0,20px);
+        }
+        li {
+          line-height: 30px;
+        }
+        .glyphicon{
+          @include marginBlock(0,5px,0,0);
+        }
+      }
+      .skill{
+        & {
+          width: 100px;
+          @include marginBlock(50px,0,0,20px);
+        }
+        li{
+          border-bottom: 8px solid $descHobbyColor;
+          padding-bottom: 10px;
+          @include marginBlock($bottom:20px);
+        }
+      }
+      p {
         color: $descHobbyColor;
+        font-size: 15px;
+        font-weight: bold;
+        @include marginBlock(70px,0,0,20px);
       }
-      i {
-        width: 40px;
-        height: 40px;
-        border: 2px solid $descHobbyColor;
-        border-radius: 40px;
-        line-height: 40px;
-        display: block;
-        @include marginBlock($left:20px,$bottom:20px);
+      .hobby{
+        & {
+          width: 160px;
+        }
+        li {
+          & {
+            float: left;
+            width: 50%;
+            text-align: center;
+            @include marginBlock($top:20px);
+            color: $descHobbyColor;
+          }
+          i {
+            width: 40px;
+            height: 40px;
+            border: 2px solid $descHobbyColor;
+            border-radius: 40px;
+            line-height: 40px;
+            display: block;
+            @include marginBlock($left:20px,$bottom:20px);
+          }
+        }
       }
     }
-  }
-}
-
-.content{
-  & {
-    width: 70%;
-    min-height: 500px;
-    color: $descBgColor;
-    @include marginBlock($right:5%);
-  }
-  h1.name {
-    @include marginBlock(20px,0,10px,0);
-    font-weight: 900;
-  }
-  p.target{
-    margin-bottom: 40px;
-    @include marginBlock($bottom:40px);
-    font-weight: bold;
-  }
-  .list{
-    &{
-      @include marginBlock(20px,0,20px,0);
-    }
-    .info{
+    .content{
       & {
-        @include marginBlock($bottom:20px);
-      }
-      span{
-        display: inline-block;
+        width: 70%;
+        min-height: 500px;
         color: $descBgColor;
-        @include marginBlock($right:30px);
+        @include marginBlock($right:5%);
       }
-    }
-    h2{
-      &{
-        border-bottom: 2px solid $descBgColor;
-        @include marginBlock($bottom:10px);
+      h1.name {
+        @include marginBlock(20px,0,10px,0);
+        font-weight: 900;
       }
-      i{
-        margin-right: 10px;
-        font-size: 40px;
-        @include marginBlock($bottom:10px);
+      p.target{
+        margin-bottom: 40px;
+        @include marginBlock($bottom:40px);
+        font-weight: bold;
+      }
+      .list{
+        &{
+          @include marginBlock(20px,0,20px,0);
+        }
+        .info{
+          & {
+            @include marginBlock($bottom:20px);
+          }
+          span{
+            display: inline-block;
+            color: $descBgColor;
+            @include marginBlock($right:30px);
+          }
+        }
+        h2{
+          &{
+            border-bottom: 2px solid $descBgColor;
+            @include marginBlock($bottom:10px);
+          }
+          i{
+            margin-right: 10px;
+            font-size: 40px;
+            @include marginBlock($bottom:10px);
+          }
+        }
       }
     }
   }

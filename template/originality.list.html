@@ -4,19 +4,11 @@
     <meta charset="UTF-8">
     <title>{{ title }}</title>
     <link rel="short icon" href="../static/_lib/img/favicon.ico">
-    <link rel="stylesheet" href="../static/_lib/css/common.css">
-    <link rel="stylesheet" href="../static/css/nav.css">
-    <link rel="stylesheet" href="../static/_lib/bootstrap/css/font.css">
+    <link rel="stylesheet" href="../static/_lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/originality.list.css">
 </head>
 <body>
-    <div class="header">
-        <div class="navbar fr" id="navbar">
-            <ul>
-                <li v-for="nav in navs" :class="{ 'active': active == nav.name }"><a href="{{ nav.url }}" data-hover="{{ nav.name }}" title="{{ nav.title }}">{{ nav.name}}</a></li>
-            </ul>
-        </div>
-    </div>
+    <header></header>
     <div id="content">
         <div class="w1190">
             <div class="list">
@@ -93,6 +85,7 @@
         </div>
     </div>
     <script src="../static/_lib/js/jquery-3.1.0.min.js"></script>
+    <script src="../static/_lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="../static/_lib/js/vue/vue.js"></script>
     <script src="../static/js/originality.list.js"></script>
 </body>
