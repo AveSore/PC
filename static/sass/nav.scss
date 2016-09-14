@@ -1,5 +1,12 @@
 $navActiveColor: #EEE048;
 header{
+  & {
+    @include fixedBlock;
+    width: 100%;
+    background-color: #000;
+    z-index: 10;
+    border-bottom: 1px solid #ddd;
+  }
   .navbar-default{
     background: transparent;
     margin-bottom: 0;
@@ -14,9 +21,7 @@ header{
         color: #fff;
         position: relative;
         &:before{
-          position: absolute;
-          top: 15px;
-          left: 15px;
+          @include absoluteBlock(15px,15px);
           overflow: hidden;
           max-width: 0;
           border-bottom: 2px solid $navActiveColor;

@@ -1,4 +1,110 @@
 @charset "UTF-8";
+.test {
+  margin: 0 auto; }
+
+.test {
+  width: 100px; }
+
+.wrap, .col-four {
+  *zoom: 1; }
+  .wrap:before, .col-four:before, .wrap:after, .col-four:after {
+    content: "";
+    display: table;
+    font: 0/0 a; }
+  .wrap:after, .col-four:after {
+    clear: both; }
+
+.shadow1 {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+.shadow2 {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5); }
+
+#header {
+  width: 1000px;
+  height: 200px; }
+  #header .logo {
+    width: 200px; }
+
+#header {
+  width: 1000px;
+  height: 200px; }
+
+#header .logo {
+  width: 200px; }
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  #header {
+    color: red; } }
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  body {
+    font-size: 14px; } }
+@keyframes show {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.no-border-radius .box {
+  background: url(round-bg.gif) no-repeat; }
+
+.box .no-border-radius {
+  background: url(round-bg.gif) no-repeat; }
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  #header {
+    color: red; } }
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  body {
+    font-size: 14px; } }
+@keyframes show {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.no-border-radius .box {
+  background: url(round-bg.gif) no-repeat; }
+
+.box .no-border-radius {
+  background: url(round-bg.gif) no-repeat; }
+
+.box {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2); }
+
+.box {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2); }
+
+#container {
+  width: 960px; }
+
+.col-four .col {
+  float: left;
+  margin: 0 10px;
+  width: 220px; }
+  .col-four .col h2 {
+    padding-left: 10px;
+    width: 210px; }
+
 html,
 body {
   margin: 0 0 0 0;
@@ -7,7 +113,7 @@ body {
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
-  background: #000 url("../img/bg.png") repeat; }
+  background: #fff; }
 
 /*
 一切应为Border-box,虽然很多初学者并不了解box-sizing这个属性，但是它确实相当的重要。而最好的理解它的方式就是看看它的两种取值:
@@ -33,59 +139,28 @@ li {
 
 a {
   text-decoration: none; }
+  a:link {
+    text-decoration: none; }
+  a:visited {
+    text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+  a:active {
+    text-decoration: none; }
 
 ul, li {
   list-style-type: none; }
 
-.fl {
-  float: left; }
-
-.fr {
-  float: right; }
-
 em {
   font-style: normal; }
 
-.w1190 {
-  width: 1190px;
-  margin: 0 auto 0 auto; }
-
-.w800 {
-  width: 800px;
-  margin: 0 auto 0 auto; }
-
-/*三角形*/
-.triangle {
-  width: 0;
-  height: 0; }
-
-.triangle-up {
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid red; }
-
-.triangle-down {
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid red; }
-
-.triangle-left {
-  border-top: 50px solid transparent;
-  border-right: 100px solid red;
-  border-bottom: 50px solid transparent; }
-
-.triangle-right {
-  border-top: 50px solid transparent;
-  border-left: 100px solid red;
-  border-bottom: 50px solid transparent; }
-
-.clearfix {
-  clear: both; }
-
-.empty {
-  width: 0;
-  height: 0;
-  padding: 0 !important;
-  border: none !important; }
+#mask {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; }
 
 /*# sourceMappingURL=common.css.map */

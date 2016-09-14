@@ -5,18 +5,22 @@ $descBgColor : #234463;
 $descColor : #e3effb;
 $descHobbyColor:#93a9bc;
 $black : #000;
+$w1190: #ebebeb;
 body{
-  background: $black url("../img/bg.2.jpg") repeat-y ;
+  background: $black;
   background-size: 100%;
   font-size: $fontSize;
   line-height: 20px;
   #content{
     & {
-      @include marginBlock(50px,0,50px,0);
+      @include paddingBlock(80px,0,50px,0);
     }
     .w1190 {
-      background: #ebebeb;
+      background: transparent;
+      border: 1px solid $descBgColor;
       overflow: hidden;
+      width: 1190px;
+      @include center-block;
     }
     .desc{
       & {
@@ -25,6 +29,7 @@ body{
         background: $descBgColor;
         color: $descColor;
         @include paddingBlock($bottom:100px);
+        float: left;
       }
       .img {
         width: 130px;
@@ -92,10 +97,11 @@ body{
     }
     .content{
       & {
-        width: 70%;
+        width: 80%;
         min-height: 500px;
         color: $descBgColor;
-        @include marginBlock($right:5%);
+        @include paddingBlock($left:40px,$right:40px);
+        float: right;
       }
       h1.name {
         @include marginBlock(20px,0,10px,0);
@@ -123,12 +129,13 @@ body{
         h2{
           &{
             border-bottom: 2px solid $descBgColor;
-            @include marginBlock($bottom:10px);
+            @include marginBlock($bottom:10px,$left:50px);
+            height: 50px;
           }
           i{
-            margin-right: 10px;
             font-size: 40px;
-            @include marginBlock($bottom:10px);
+            @include marginBlock($bottom:10px,$left:-47px);
+            float: left;
           }
         }
       }

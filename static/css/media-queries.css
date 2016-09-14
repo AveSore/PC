@@ -1,21 +1,20 @@
 /*
-Error: Undefined mixin 'fixedBlock'.
-        on line 4 of sass/nav.scss, in `fixedBlock'
-        from line 4 of sass/nav.scss
+Error: Undefined mixin 'banner--sm'.
+        on line 3 of sass/media-queries.scss, in `banner--sm'
+        from line 3 of sass/media-queries.scss
 
-1: $navActiveColor: #EEE048;
-2: header{
-3:   & {
-4:     @include fixedBlock;
-5:     width: 100%;
-6:     background-color: #000;
-7:     z-index: 10;
-8:     border-bottom: 1px solid #ddd;
-9:   }
+1: // small screen size (sm)
+2: @media (min-width: 801px) {
+3:   @include banner--sm();
+4:   @include header--sm();
+5: }
+6: 
+7: // medium screen size (md)
+8: @media (min-width: 992px) {
 
 Backtrace:
-sass/nav.scss:4:in `fixedBlock'
-sass/nav.scss:4
+sass/media-queries.scss:3:in `banner--sm'
+sass/media-queries.scss:3
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -27,22 +26,14 @@ C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:515:in `visit_media'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -78,4 +69,4 @@ C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'fixedBlock'.\A         on line 4 of sass/nav.scss, in `fixedBlock'\A         from line 4 of sass/nav.scss\A \A 1: $navActiveColor: #EEE048;\A 2: header{\A 3:   & {\A 4:     @include fixedBlock;\A 5:     width: 100%;\A 6:     background-color: #000;\A 7:     z-index: 10;\A 8:     border-bottom: 1px solid #ddd;\A 9:   }"; }
+  content: "Error: Undefined mixin 'banner--sm'.\A         on line 3 of sass/media-queries.scss, in `banner--sm'\A         from line 3 of sass/media-queries.scss\A \A 1: // small screen size (sm)\A 2: @media (min-width: 801px) {\A 3:   @include banner--sm();\A 4:   @include header--sm();\A 5: }\A 6: \A 7: // medium screen size (md)\A 8: @media (min-width: 992px) {"; }

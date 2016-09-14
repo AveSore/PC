@@ -1,0 +1,10 @@
+// small screen size (sm)
+@media (min-width: 801px) {
+  @include banner--sm();
+  @include header--sm();
+}
+
+// medium screen size (md)
+@media (min-width: 992px) {
+  @include banner--md()
+}
