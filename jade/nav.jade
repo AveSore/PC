@@ -1,0 +1,14 @@
+nav(class="navbar navbar-default")
+    .container-fluid
+        .navbar-header
+            button(type="button", class="navbar-toggle collapsed", data-toggle="collapse", data-target="#navbar", aria-expanded="false")
+                span(class="sr-only") Toggle navigation
+                span(class="icon-bar")
+                span(class="icon-bar")
+                span(class="icon-bar")
+            a(class="navbar-brand", href="#")
+                img(src="../static/_lib/img/logo/en.01.png", alt="", width="63", height="30")
+        div(class="collapse navbar-collapse navbar-right", id="navbar")
+            ul(class="nav navbar-nav")
+                li(v-for="nav in navs" class="{ 'active': active == nav.name }")
+                    a(href="{{ nav.url }}" data-hover="{{ nav.name }}" title="{{ nav.title }}")

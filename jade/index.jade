@@ -1,0 +1,21 @@
+extends layout
+block title
+    title 主页
+block append css
+    link(rel="stylesheet" href="../static/css/index.css")
+block append body
+    #mask
+    .content
+        h1 前端开发工程师
+        h2 爱生活爱技术
+        #button
+            .svg-wrapper
+                svg(height="40" width="150")
+                    rect(id="shape" height="40" width="150")
+                    .text
+                        a(href="about.html") 了解我
+                            span.spot
+block append js
+    script(src="../static/js/index.js")
+
+

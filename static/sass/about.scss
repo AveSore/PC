@@ -65,7 +65,7 @@ body{
           @include marginBlock($bottom:20px);
         }
       }
-      p {
+      p.hobby-title {
         color: $descHobbyColor;
         font-size: 15px;
         font-weight: bold;

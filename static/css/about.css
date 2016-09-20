@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(../_lib/bootstrap/css/bootstrap.min.css);
 .test {
   margin: 0 auto; }
 
@@ -260,7 +261,7 @@ body {
     border-bottom: 8px solid #93a9bc;
     padding-bottom: 10px;
     margin: 0 0 20px 0; }
-  body #content .desc p {
+  body #content .desc p.hobby-title {
     color: #93a9bc;
     font-size: 15px;
     font-weight: bold;
