@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51599245-4069-4bd1-81b9-3ea01b5adc68" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/bongmi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/about.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/layout.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/nav.jade" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/about.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/about.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/common.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/common.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
@@ -29,9 +34,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/about.html" afterPath="$PROJECT_DIR$/template/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/blog.info.html" afterPath="$PROJECT_DIR$/template/blog.info.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/blog.list.html" afterPath="$PROJECT_DIR$/template/blog.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index.html" afterPath="$PROJECT_DIR$/template/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/originality.list.html" afterPath="$PROJECT_DIR$/template/originality.list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/personal.html" afterPath="$PROJECT_DIR$/template/personal.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/about.3.js" />
     </list>
     <ignored path="PC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +57,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.3.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.3.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/about.3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-490">
@@ -92,21 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.3.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/sass/about.3.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="184">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -412,18 +407,18 @@
       <workItem from="1474177767526" duration="12942000" />
       <workItem from="1474333680382" duration="10722000" />
       <workItem from="1474351305542" duration="642000" />
-      <workItem from="1474351980839" duration="9611000" />
+      <workItem from="1474351980839" duration="9732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149650000" />
+    <option name="totallyTimeSpent" value="149771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1383" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2622827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2622827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -814,19 +809,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/about.3.html">
+    <entry file="file://$PROJECT_DIR$/template/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="390" column="10" selection-start-line="390" selection-start-column="10" selection-end-line="390" selection-end-column="10" />
-          <folding>
-            <element signature="e#2746#2752#0" expanded="true" />
-            <element signature="e#17491#17497#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#17999#18007#1" expanded="true" />
-            <element signature="e#18177#18185#1" expanded="true" />
-            <element signature="e#18365#18373#1" expanded="true" />
-            <element signature="e#18540#18548#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -850,11 +837,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/about.html">
+    <entry file="file://$PROJECT_DIR$/template/about.3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="-490">
+          <caret line="390" column="10" selection-start-line="390" selection-start-column="10" selection-end-line="390" selection-end-column="10" />
+          <folding>
+            <element signature="e#2746#2752#0" expanded="true" />
+            <element signature="e#17491#17497#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#17999#18007#1" expanded="true" />
+            <element signature="e#18177#18185#1" expanded="true" />
+            <element signature="e#18365#18373#1" expanded="true" />
+            <element signature="e#18540#18548#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
