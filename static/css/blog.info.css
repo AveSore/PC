@@ -1,0 +1,252 @@
+@charset "UTF-8";
+.test {
+  margin: 0 auto; }
+
+.test {
+  width: 100px; }
+
+.wrap, .col-four {
+  *zoom: 1; }
+  .wrap:before, .col-four:before, .wrap:after, .col-four:after {
+    content: "";
+    display: table;
+    font: 0/0 a; }
+  .wrap:after, .col-four:after {
+    clear: both; }
+
+.shadow1 {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+.shadow2 {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5); }
+
+#header {
+  width: 1000px;
+  height: 200px; }
+  #header .logo {
+    width: 200px; }
+
+#header {
+  width: 1000px;
+  height: 200px; }
+
+#header .logo {
+  width: 200px; }
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  #header {
+    color: red; } }
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  body {
+    font-size: 14px; } }
+@keyframes show {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.no-border-radius .box {
+  background: url(round-bg.gif) no-repeat; }
+
+.box .no-border-radius {
+  background: url(round-bg.gif) no-repeat; }
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  #header {
+    color: red; } }
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  body {
+    font-size: 14px; } }
+@keyframes show {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.no-border-radius .box {
+  background: url(round-bg.gif) no-repeat; }
+
+.box .no-border-radius {
+  background: url(round-bg.gif) no-repeat; }
+
+.box {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2); }
+
+.box {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2); }
+
+#container {
+  width: 960px; }
+
+.col-four .col {
+  float: left;
+  margin: 0 10px;
+  width: 220px; }
+  .col-four .col h2 {
+    padding-left: 10px;
+    width: 210px; }
+
+html {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%; }
+
+html,
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  cursor: default;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  background: transparent; }
+
+/*
+一切应为Border-box,虽然很多初学者并不了解box-sizing这个属性，但是它确实相当的重要。而最好的理解它的方式就是看看它的两种取值:
+默认值为content-box，即当我们设置某个元素的height/width属性时，仅仅会作用于其内容尺寸。
+而所有的内边距与边都是在其之上的累加，譬如某个<div>标签设置为宽100，内边距为10，
+那么最终元素会占用120(100 + 2*10)的像素。
+border-box:内边距与边是包含在了width/height之内，譬如设置了width:100px的<div>无论其内边距或者边长设置为多少，
+其占有的大小都是100px。
+将元素设置为border-box会很方便你进行样式布局，
+这样的话你就可以在父元素设置高宽限制而不担心子元素的内边距或者边打破了这种限制。
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
+
+a {
+  text-decoration: none; }
+  a:link {
+    text-decoration: none; }
+  a:visited {
+    text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+  a:active {
+    text-decoration: none; }
+
+ul, li {
+  list-style-type: none; }
+
+em {
+  font-style: normal; }
+
+#mask {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+
+.content-mask {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  overflow: hidden; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  z-index: 10;
+  border-bottom: 1px solid #ddd; }
+header .navbar-default {
+  background: transparent;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0; }
+header #navbar li {
+  margin-right: 10px;
+  font-size: 18px; }
+  header #navbar li a {
+    color: #fff;
+    position: relative; }
+    header #navbar li a:before {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      overflow: hidden;
+      max-width: 0;
+      border-bottom: 2px solid #EEE048;
+      color: #EEE048;
+      content: attr(data-hover);
+      -webkit-transition: max-width 0.5s;
+      -moz-transition: max-width 0.5s;
+      transition: max-width 0.5s; }
+  header #navbar li.active a {
+    color: #EEE048;
+    background: transparent; }
+
+@media (max-width: 767px) {
+  header #navbar li a:before {
+    top: 10px; } }
+header #navbar li a:hover::before {
+  max-width: 100%; }
+
+html {
+  background: #fff url("../img/2.jpg") no-repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%; }
+
+.content {
+  width: 80%;
+  border-radius: 12px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 100px auto 50px auto; }
+.content h1 {
+  text-align: center; }
+.content .tags {
+  text-align: center;
+  margin: 20px auto 20px auto; }
+  .content .tags span {
+    margin: 0 20px 0 0; }
+    .content .tags span i {
+      margin: 0 10px 0 0; }
+.content .info p {
+  text-indent: 2em;
+  font-size: 15px;
+  line-height: 30px; }
+.content .info img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  margin: 20px auto 20px auto; }
+
+/*# sourceMappingURL=blog.info.css.map */

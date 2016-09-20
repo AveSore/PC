@@ -8,10 +8,10 @@ Error: Undefined mixin 'fixedBlock'.
 3:   & {
 4:     @include fixedBlock;
 5:     width: 100%;
-6:     background-color: #000;
-7:     z-index: 10;
-8:     border-bottom: 1px solid #ddd;
-9:   }
+6:     height: 50px;
+7:     background-color: #000;
+8:     z-index: 10;
+9:     border-bottom: 1px solid #ddd;
 
 Backtrace:
 sass/nav.scss:4:in `fixedBlock'
@@ -78,4 +78,4 @@ C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'fixedBlock'.\A         on line 4 of sass/nav.scss, in `fixedBlock'\A         from line 4 of sass/nav.scss\A \A 1: $navActiveColor: #EEE048;\A 2: header{\A 3:   & {\A 4:     @include fixedBlock;\A 5:     width: 100%;\A 6:     background-color: #000;\A 7:     z-index: 10;\A 8:     border-bottom: 1px solid #ddd;\A 9:   }"; }
+  content: "Error: Undefined mixin 'fixedBlock'.\A         on line 4 of sass/nav.scss, in `fixedBlock'\A         from line 4 of sass/nav.scss\A \A 1: $navActiveColor: #EEE048;\A 2: header{\A 3:   & {\A 4:     @include fixedBlock;\A 5:     width: 100%;\A 6:     height: 50px;\A 7:     background-color: #000;\A 8:     z-index: 10;\A 9:     border-bottom: 1px solid #ddd;"; }

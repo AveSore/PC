@@ -1,72 +1,278 @@
 @import "common";
 @import "nav";
-.container{
-  @include paddingBlock($top:50px);
-  .row{
+html{
+  background: #fff url("../img/2.jpg") no-repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+}
+
+.show-by-date{
+  &{
     overflow: hidden;
-    @include paddingBlock(0,47px,0,47px);
-    .list{
-      border-left: 2px dashed #fff;
-      li{
-        background: rgba(0,0,0,0.3);
-        border-radius: 6px;
-        margin: 0 0 20px 90px;
-        position: relative;
-        &:hover{
-          background: rgba(0,0,0,0.5);
-        }
+  }
+  .info{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    .head-img{
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      margin: 0 auto;
+      img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
       }
-      h2{
+    }
+    p{
+      &{
+        text-align: center;
+        color: #fff;
+      }
+      &.name{
         font-size: 20px;
-        @include marginBlock($bottom:20px);
+        font-weight: bold;
+        margin-bottom: 20px;
       }
-      .date{
-        position: absolute;
-        display: block;
-        background: rgba(0,0,0,1);
-        color: #fff;
-        left: -125px;
-        top: 30px;
-        @include paddingBlock(5px,0,0,7px);
-        border-radius: 3px;
-        em{
-          display: block;
-          font-size: 20px;
-          line-height: 20px;
-          @include paddingBlock(4px,5px,3px,10px);
-          font-weight: bold;
+      &.specific{
+        font-size: 15px;
+      }
+    }
+    .tag-lists{
+      ul{
+        width: 80%;
+        margin: 20px auto;
+        height: 150px;
+        overflow-y: scroll;
+        @include scroll-style;
+        li{
+          height: 30px;
+          line-height: 30px;
+          padding-left: 20px;
+          color: greenyellow;
+          &:hover{
+            background: lightblue;
+            color: #fff;
+          }
         }
       }
-      .triangle{
-        @include absoluteBlock($top:37px)
-      }
-      .triangle-left{
-        border-top: 15px solid transparent;
-        border-bottom: 15px solid transparent;
-      }
-      .triangle02{
-        border-right: 40px solid rgba(0,0,0,0.3);
-        left: -40px;
-      }
-      .info{
+    }
+  }
+  .blog-lists{
+    width: 80%;
+    background: rgba(255,255,255,0.3);
+    padding-left: 30px;
+    float: left;
+    overflow: hidden;
+    h2{
+      font-size: 30px;
+      font-weight: bold;
+      margin: 10px;
+    }
+    ul{
+      li{
+        padding-left: 50px;
         overflow: hidden;
-      }
-      .cover-img{
-        width: 300px;
-        height: 200px;
-        overflow: hidden;
-        border:1px solid rgba(255,255,255,0.3);
-        border-radius: 20px;
-      }
-      .desc{
-        width: 300px;
-        font-size: 15px;
-        line-height: 25px;
         color: #fff;
-        @include marginBlock($left:20px);
+        background: #2a282b;
+        font-size: 15px;
+        height: 50px;
+        label{
+          display: inline-block;
+          line-height: 50px;
+          float: left;
+        }
+        h3{
+          height: 50px;
+          display: inline-block;
+          margin-left: 20px;
+          a{
+            font-size: 15px;
+            height: 50px;
+            line-height: 50px;
+            font-weight: bold;
+            display: block;
+            cursor: pointer;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            position: relative;
+            overflow: hidden;
+            color: #b5b5b5;
+            outline: none;
+            span{
+              display: block;
+              pointer-events: none;
+            }
+          }
+          &:hover{
+            a{
+              color: #d94f5c;
+            }
+            span {
+              -webkit-animation: anim-adrian 0.3s forwards;
+              animation: anim-adrian 0.3s forwards;
+            }
+            a::before {
+              opacity: 1;
+              -webkit-transform: translate3d(-260px, 0, 0);
+              transform: translate3d(-260px, 0, 0);
+              -webkit-transition: -webkit-transform 0.5s;
+              transition: transform 0.5s;
+            }
+          }
+        }
+      }
+      li h3 a::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 300%;
+        height: 50px;
+        opacity: 0;
+        background: url(../img/line.svg) no-repeat top left;
+        -webkit-transform: translate3d(130px, 0, 0);
+        transform: translate3d(130px, 0, 0);
+        -webkit-transition: -webkit-transform 0s 0.3s, opacity 0.3s;
+        transition: transform 0s 0.3s, opacity 0.3s;
+      }
+    }
+  }
+  @-webkit-keyframes anim-adrian {
+    50% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+
+    51% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+  }
+  @keyframes anim-adrian {
+    50% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+
+    51% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+  }
+}
+
+.show-by-detail{
+  &{
+    background: rgba(255,255,255,0.5);
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  .info{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    .head-img{
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      margin: 0 auto;
+      img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+      }
+    }
+    p{
+      &{
+        text-align: center;
+        color: #fff;
+      }
+      &.name{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      &.specific{
+        font-size: 15px;
+      }
+    }
+    .tag-lists{
+      ul{
+        width: 80%;
+        margin: 20px auto;
+        height: 150px;
+        overflow-y: scroll;
+        @include scroll-style;
+        li{
+          height: 30px;
+          line-height: 30px;
+          padding-left: 20px;
+          color: greenyellow;
+          &:hover{
+            background: lightblue;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .blog-lists{
+    width: 80%;
+    padding-left: 30px;
+    float: left;
+    overflow: hidden;
+    li{
+      padding: 20px;
+      h2{
+        border-left: 3px solid #ddd;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        a{
+          color: #b5b5b5;
+        }
+        &:hover{
+          border-left: 3px solid #9c9;
+          a{
+            color: #9c9;
+          }
+        }
       }
       .tags{
-        background: rgba(0,0,0,0.5);
+        margin-bottom: 15px;
+        span{
+          margin-right: 20px;
+          i{
+            margin-right: 10px;
+          }
+        }
+      }
+      .detail{
+        p{
+          font-size: 15px;
+          line-height: 25px;
+          text-indent: 2em;
+        }
       }
     }
   }

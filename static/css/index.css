@@ -105,6 +105,11 @@
     padding-left: 10px;
     width: 210px; }
 
+html {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%; }
+
 html,
 body {
   margin: 0 0 0 0;
@@ -113,7 +118,7 @@ body {
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
-  background: #fff; }
+  background: transparent; }
 
 /*
 一切应为Border-box,虽然很多初学者并不了解box-sizing这个属性，但是它确实相当的重要。而最好的理解它的方式就是看看它的两种取值:
@@ -163,11 +168,19 @@ em {
   left: 0;
   z-index: 2; }
 
+.content-mask {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  overflow: hidden; }
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 50px;
   background-color: #000;
   z-index: 10;
   border-bottom: 1px solid #ddd; }
@@ -206,12 +219,9 @@ header #navbar li a:hover::before {
 
 html {
   background: #fff url("../img/index.bg.jpg") no-repeat;
-  background-size: 100%; }
-
-body {
-  background: rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background-size: 100% 100%; }
 
 .content {
   color: #fff;
@@ -233,28 +243,45 @@ body {
   margin: 50px 0 0 0;
   animation: scale 2s ease;
   -webkit-animation: scale 2s ease; }
-.content span {
-  font-size: 20px;
-  width: 200px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  border: 1px solid #000;
-  color: #000;
-  display: block;
-  cursor: pointer;
+.content #button {
   position: fixed;
-  bottom: 1px;
-  left: 50%;
-  margin: 0 0 0 -100px; }
-  .content span a {
-    color: #000;
-    display: block; }
-  .content span:hover {
-    border: 1px solid #449471;
-    color: #449471; }
-    .content span:hover a {
-      color: #449471; }
+  bottom: 20px;
+  width: 100%; }
+  .content #button .spot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+  .content #button .svg-wrapper {
+    margin-top: 0;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .content #button #shape {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #009FFD;
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease; }
+  .content #button .text {
+    margin-top: -35px;
+    text-align: center; }
+  .content #button .text a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em; }
+  .content #button .svg-wrapper:hover #shape {
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: #06D6A0; }
 
 @-webkit-keyframes fadeInDownBig {
   from {

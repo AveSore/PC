@@ -105,6 +105,11 @@
     padding-left: 10px;
     width: 210px; }
 
+html {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%; }
+
 html,
 body {
   margin: 0 0 0 0;
@@ -113,7 +118,7 @@ body {
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
-  background: #fff; }
+  background: transparent; }
 
 /*
 一切应为Border-box,虽然很多初学者并不了解box-sizing这个属性，但是它确实相当的重要。而最好的理解它的方式就是看看它的两种取值:
@@ -163,11 +168,19 @@ em {
   left: 0;
   z-index: 2; }
 
+.content-mask {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  overflow: hidden; }
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 50px;
   background-color: #000;
   z-index: 10;
   border-bottom: 1px solid #ddd; }

@@ -1,6 +1,8 @@
 [
   {"name":"Default","url":"index.html","title":"首页"},
   {"name":"About","url":"about.html","title":"关于我"},
+  {"name":"About2","url":"about.2.html","title":"关于我2"},
+  {"name":"About3","url":"about.3.html","title":"关于我3"},
   {"name":"Blog","url":"blog.list.html","title":"博客列表"},
   {"name":"Personal","url":"personal.html","title":"个人站点"},
   {"name":"Originality","url":"originality.list.html","title":"创意"},

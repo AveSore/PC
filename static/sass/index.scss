@@ -2,12 +2,9 @@
 @import "nav";
 html{
   background: #fff url("../img/index.bg.jpg") no-repeat;
-  background-size: 100%;
-}
-body{
-  background: rgba(0,0,0,0.3);
   width: 100%;
   height: 100%;
+  background-size: 100% 100%;
 }
 .content {
   & {
@@ -30,29 +27,16 @@ body{
     animation: scale 2s ease;
     -webkit-animation: scale 2s ease;
   }
-  span {
-    font-size: 20px;
-    @include size(200px,40px);
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid #000;
-    color: #000;
-    display: block;
-    cursor: pointer;
-    @include fixedBlock($bottom:1px,$left:50%);
-    @include marginBlock($left:-100px);
-    a{
-      color: #000;
-      display: block;
-    }
-    &:hover{
-      border: 1px solid #449471;
-      color: #449471;
-      a{
-        color: #449471;
-      }
-    }
-
+  #button{
+    position: fixed;
+    bottom: 20px;
+    width:100%;
+    .spot{position:absolute;width:100%;height:100%;top:0;left:0}
+    .svg-wrapper{margin-top:0;position:relative;width:150px;height:40px;display:inline-block;border-radius:3px;margin-left:5px;margin-right:5px}
+    #shape{stroke-width:6px;fill:transparent;stroke:#009FFD;stroke-dasharray:85 400;stroke-dashoffset:-220;transition:1s all ease}
+    .text{margin-top:-35px;text-align:center}
+    .text a{color:white;text-decoration:none;font-weight:100;font-size:1.1em}
+    .svg-wrapper:hover #shape{stroke-dasharray:50 0;stroke-width:3px;stroke-dashoffset:0;stroke:#06D6A0}
   }
 }
 @-webkit-keyframes fadeInDownBig {
@@ -92,3 +76,5 @@ body{
     -webkit-transform: scale(1);
   }
 }
+
+

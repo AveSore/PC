@@ -105,6 +105,11 @@
     padding-left: 10px;
     width: 210px; }
 
+html {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%; }
+
 html,
 body {
   margin: 0 0 0 0;
@@ -113,7 +118,7 @@ body {
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
-  background: #fff; }
+  background: transparent; }
 
 /*
 一切应为Border-box,虽然很多初学者并不了解box-sizing这个属性，但是它确实相当的重要。而最好的理解它的方式就是看看它的两种取值:
@@ -163,11 +168,19 @@ em {
   left: 0;
   z-index: 2; }
 
+.content-mask {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  overflow: hidden; }
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 50px;
   background-color: #000;
   z-index: 10;
   border-bottom: 1px solid #ddd; }
@@ -204,63 +217,239 @@ header #navbar li {
 header #navbar li a:hover::before {
   max-width: 100%; }
 
-.container {
-  padding: 50px 0 0 0; }
-  .container .row {
+html {
+  background: #fff url("../img/2.jpg") no-repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%; }
+
+.show-by-date {
+  overflow: hidden; }
+.show-by-date .info {
+  width: 20%;
+  float: left;
+  overflow: hidden; }
+  .show-by-date .info .head-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto; }
+    .show-by-date .info .head-img img {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%; }
+  .show-by-date .info p {
+    text-align: center;
+    color: #fff; }
+  .show-by-date .info p.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .show-by-date .info p.specific {
+    font-size: 15px; }
+  .show-by-date .info .tag-lists ul {
+    width: 80%;
+    margin: 20px auto;
+    height: 150px;
+    overflow-y: scroll;
+    /* 这是针对缺省样式 (必须的) */
+    /* 滚动条的滑轨背景颜色 */
+    /* 滑块颜色 */
+    /* 滑轨两头的监听按钮颜色 */
+    /* 横向滚动条和纵向滚动条相交处尖角的颜色 */ }
+    .show-by-date .info .tag-lists ul::-webkit-scrollbar {
+      width: 5px; }
+    .show-by-date .info .tag-lists ul::-webkit-scrollbar-track {
+      background-color: #000; }
+    .show-by-date .info .tag-lists ul::-webkit-scrollbar-thumb {
+      background-color: lightblue; }
+    .show-by-date .info .tag-lists ul::-webkit-scrollbar-button {
+      width: 0;
+      height: 0;
+      background-color: #000; }
+    .show-by-date .info .tag-lists ul::-webkit-scrollbar-corner {
+      background-color: black; }
+    .show-by-date .info .tag-lists ul li {
+      height: 30px;
+      line-height: 30px;
+      padding-left: 20px;
+      color: greenyellow; }
+      .show-by-date .info .tag-lists ul li:hover {
+        background: lightblue;
+        color: #fff; }
+.show-by-date .blog-lists {
+  width: 80%;
+  background: rgba(255, 255, 255, 0.3);
+  padding-left: 30px;
+  float: left;
+  overflow: hidden; }
+  .show-by-date .blog-lists h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px; }
+  .show-by-date .blog-lists ul li {
+    padding-left: 50px;
     overflow: hidden;
-    padding: 0 47px 0 47px; }
-    .container .row .list {
-      border-left: 2px dashed #fff; }
-      .container .row .list li {
-        background: rgba(0, 0, 0, 0.3);
-        border-radius: 6px;
-        margin: 0 0 20px 90px;
-        position: relative; }
-        .container .row .list li:hover {
-          background: rgba(0, 0, 0, 0.5); }
-      .container .row .list h2 {
-        font-size: 20px;
-        margin: 0 0 20px 0; }
-      .container .row .list .date {
-        position: absolute;
-        display: block;
-        background: black;
-        color: #fff;
-        left: -125px;
-        top: 30px;
-        padding: 5px 0 0 7px;
-        border-radius: 3px; }
-        .container .row .list .date em {
-          display: block;
-          font-size: 20px;
-          line-height: 20px;
-          padding: 4px 5px 3px 10px;
-          font-weight: bold; }
-      .container .row .list .triangle {
-        position: absolute;
-        top: 37px;
-        left: 0; }
-      .container .row .list .triangle-left {
-        border-top: 15px solid transparent;
-        border-bottom: 15px solid transparent; }
-      .container .row .list .triangle02 {
-        border-right: 40px solid rgba(0, 0, 0, 0.3);
-        left: -40px; }
-      .container .row .list .info {
-        overflow: hidden; }
-      .container .row .list .cover-img {
-        width: 300px;
-        height: 200px;
-        overflow: hidden;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 20px; }
-      .container .row .list .desc {
-        width: 300px;
+    color: #fff;
+    background: #2a282b;
+    font-size: 15px;
+    height: 50px; }
+    .show-by-date .blog-lists ul li label {
+      display: inline-block;
+      line-height: 50px;
+      float: left; }
+    .show-by-date .blog-lists ul li h3 {
+      height: 50px;
+      display: inline-block;
+      margin-left: 20px; }
+      .show-by-date .blog-lists ul li h3 a {
         font-size: 15px;
-        line-height: 25px;
-        color: #fff;
-        margin: 0 0 0 20px; }
-      .container .row .list .tags {
-        background: rgba(0, 0, 0, 0.5); }
+        height: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        overflow: hidden;
+        color: #b5b5b5;
+        outline: none; }
+        .show-by-date .blog-lists ul li h3 a span {
+          display: block;
+          pointer-events: none; }
+      .show-by-date .blog-lists ul li h3:hover a {
+        color: #d94f5c; }
+      .show-by-date .blog-lists ul li h3:hover span {
+        -webkit-animation: anim-adrian 0.3s forwards;
+        animation: anim-adrian 0.3s forwards; }
+      .show-by-date .blog-lists ul li h3:hover a::before {
+        opacity: 1;
+        -webkit-transform: translate3d(-260px, 0, 0);
+        transform: translate3d(-260px, 0, 0);
+        -webkit-transition: -webkit-transform 0.5s;
+        transition: transform 0.5s; }
+  .show-by-date .blog-lists ul li h3 a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300%;
+    height: 50px;
+    opacity: 0;
+    background: url(../img/line.svg) no-repeat top left;
+    -webkit-transform: translate3d(130px, 0, 0);
+    transform: translate3d(130px, 0, 0);
+    -webkit-transition: -webkit-transform 0s 0.3s, opacity 0.3s;
+    transition: transform 0s 0.3s, opacity 0.3s; }
+@-webkit-keyframes anim-adrian {
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  51% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@keyframes anim-adrian {
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  51% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+.show-by-detail {
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  overflow: hidden; }
+.show-by-detail .info {
+  width: 20%;
+  float: left;
+  overflow: hidden; }
+  .show-by-detail .info .head-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto; }
+    .show-by-detail .info .head-img img {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%; }
+  .show-by-detail .info p {
+    text-align: center;
+    color: #fff; }
+  .show-by-detail .info p.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .show-by-detail .info p.specific {
+    font-size: 15px; }
+  .show-by-detail .info .tag-lists ul {
+    width: 80%;
+    margin: 20px auto;
+    height: 150px;
+    overflow-y: scroll;
+    /* 这是针对缺省样式 (必须的) */
+    /* 滚动条的滑轨背景颜色 */
+    /* 滑块颜色 */
+    /* 滑轨两头的监听按钮颜色 */
+    /* 横向滚动条和纵向滚动条相交处尖角的颜色 */ }
+    .show-by-detail .info .tag-lists ul::-webkit-scrollbar {
+      width: 5px; }
+    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-track {
+      background-color: #000; }
+    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-thumb {
+      background-color: lightblue; }
+    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-button {
+      width: 0;
+      height: 0;
+      background-color: #000; }
+    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-corner {
+      background-color: black; }
+    .show-by-detail .info .tag-lists ul li {
+      height: 30px;
+      line-height: 30px;
+      padding-left: 20px;
+      color: greenyellow; }
+      .show-by-detail .info .tag-lists ul li:hover {
+        background: lightblue;
+        color: #fff; }
+.show-by-detail .blog-lists {
+  width: 80%;
+  padding-left: 30px;
+  float: left;
+  overflow: hidden; }
+  .show-by-detail .blog-lists li {
+    padding: 20px; }
+    .show-by-detail .blog-lists li h2 {
+      border-left: 3px solid #ddd;
+      padding-left: 20px;
+      margin-bottom: 20px; }
+      .show-by-detail .blog-lists li h2 a {
+        color: #b5b5b5; }
+      .show-by-detail .blog-lists li h2:hover {
+        border-left: 3px solid #9c9; }
+        .show-by-detail .blog-lists li h2:hover a {
+          color: #9c9; }
+    .show-by-detail .blog-lists li .tags {
+      margin-bottom: 15px; }
+      .show-by-detail .blog-lists li .tags span {
+        margin-right: 20px; }
+        .show-by-detail .blog-lists li .tags span i {
+          margin-right: 10px; }
+    .show-by-detail .blog-lists li .detail p {
+      font-size: 15px;
+      line-height: 25px;
+      text-indent: 2em; }
 
 /*# sourceMappingURL=blog.list.css.map */

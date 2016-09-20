@@ -2,19 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51599245-4069-4bd1-81b9-3ea01b5adc68" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/about.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/about.scssc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/.idea/bk.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/about.2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/background.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/movement.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/page-1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/page-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/page-3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/page-4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/page-5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/about/page-6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/blog.article.info.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/blog.list.2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/blog.list.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/defaut.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/css/navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/base.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/bg7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-2/book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-2/glass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-2/hat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-2/tel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/1(4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/2(3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/4(2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/5(2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/apple6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/baterry10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/tel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-3/tv8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/anjie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/cloud_one.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/cloud_three.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/cloud_two.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/dayang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/lingyang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/school.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page-4/无标题.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page_home/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page_home/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page_home/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/page_home/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/pure.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/images/unuse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/about/img/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/default.bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/img/user.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/js/blog.list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/js/fullpage/jquery.fullPage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/js/jquery-3.1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/js/jquery-3.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/js/navData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/js/vue/vue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/js/vue/vue.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/jquery.isotope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/static/lib/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/about.2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/about.3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/blog.article.info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/blog.list.2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/blog.list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/defaut.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/template/defaut2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/xml/nav.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bk/xml/page.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/test.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/blog.list.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/blog.list.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/common.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/common.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/function.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/function.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/index.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/index.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/nav.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/nav.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/personal.scssc" afterPath="$PROJECT_DIR$/static/.sass-cache/657e348043584dc63c36123bf7d196cf7b67044c/personal.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/json/nav.json" afterPath="$PROJECT_DIR$/data/json/nav.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/about.css" afterPath="$PROJECT_DIR$/static/css/about.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/about.css.map" afterPath="$PROJECT_DIR$/static/css/about.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.list.css" afterPath="$PROJECT_DIR$/static/css/blog.list.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.list.css.map" afterPath="$PROJECT_DIR$/static/css/blog.list.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/common.css" afterPath="$PROJECT_DIR$/static/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/common.css.map" afterPath="$PROJECT_DIR$/static/css/common.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/function.css" afterPath="$PROJECT_DIR$/static/css/function.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/function.css.map" afterPath="$PROJECT_DIR$/static/css/function.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css.map" afterPath="$PROJECT_DIR$/static/css/index.css.map" />
@@ -23,13 +131,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/originality.list.css.map" afterPath="$PROJECT_DIR$/static/css/originality.list.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/personal.css" afterPath="$PROJECT_DIR$/static/css/personal.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/personal.css.map" afterPath="$PROJECT_DIR$/static/css/personal.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/about.scss" afterPath="$PROJECT_DIR$/static/sass/about.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/blog.list.scss" afterPath="$PROJECT_DIR$/static/sass/blog.list.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/common.scss" afterPath="$PROJECT_DIR$/static/sass/common.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/function.scss" afterPath="$PROJECT_DIR$/static/sass/function.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/index.scss" afterPath="$PROJECT_DIR$/static/sass/index.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/nav.scss" afterPath="$PROJECT_DIR$/static/sass/nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/code.html" afterPath="$PROJECT_DIR$/template/code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/personal.scss" afterPath="$PROJECT_DIR$/static/sass/personal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/blog.list.html" afterPath="$PROJECT_DIR$/template/blog.list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index.html" afterPath="$PROJECT_DIR$/template/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/ajax-cross-origin/demo.htm" afterPath="$PROJECT_DIR$/ajax-cross-origin/demo.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/ajax-cross-origin/js/jquery.ajax-cross-origin.min.js" afterPath="$PROJECT_DIR$/ajax-cross-origin/js/jquery.ajax-cross-origin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/ajax-cross-origin/proxy.php" afterPath="$PROJECT_DIR$/ajax-cross-origin/proxy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/ajax-cross-origin/readme.txt" afterPath="$PROJECT_DIR$/ajax-cross-origin/readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/static/css/about.3.css" afterPath="$PROJECT_DIR$/static/css/about.3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/static/css/fullpage/jquery.fullPage.css" afterPath="$PROJECT_DIR$/static/_lib/fullpage/jquery.fullPage.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/static/js/about/handler.js" afterPath="$PROJECT_DIR$/static/js/handler.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/static/js/about/resumeEnter.js" afterPath="$PROJECT_DIR$/static/js/resumeEnter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/static/js/fullpage/jquery.fullPage.js" afterPath="$PROJECT_DIR$/static/_lib/fullpage/jquery.fullPage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bk/static/lib/jquery.fullPage.min.js" afterPath="$PROJECT_DIR$/static/_lib/fullpage/jquery.fullPage.min.js" />
     </list>
     <ignored path="PC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,131 +168,7 @@
     <favorites_list name="PC" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/sass/nav.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding>
-                <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/sass/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#1123#1360#0" expanded="false" />
-                <element signature="e#1361#1590#0" expanded="false" />
-                <element signature="e#1591#1755#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/sass/about.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/sass/function.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-              <folding>
-                <element signature="e#456#496#0" expanded="false" />
-                <element signature="e#552#593#0" expanded="false" />
-                <element signature="e#697#742#0" expanded="false" />
-                <element signature="e#766#916#0" expanded="false" />
-                <element signature="e#922#946#0" expanded="false" />
-                <element signature="e#1010#1704#0" expanded="false" />
-                <element signature="e#2194#2252#0" expanded="false" />
-                <element signature="e#2261#2354#0" expanded="false" />
-                <element signature="e#2381#2413#0" expanded="false" />
-                <element signature="e#2429#2494#0" expanded="false" />
-                <element signature="e#2512#2549#0" expanded="false" />
-                <element signature="e#2564#2583#0" expanded="false" />
-                <element signature="e#2655#2749#0" expanded="false" />
-                <element signature="e#2797#2842#0" expanded="false" />
-                <element signature="e#2944#2985#0" expanded="false" />
-                <element signature="e#3027#3082#0" expanded="false" />
-                <element signature="e#3112#3147#0" expanded="false" />
-                <element signature="e#3172#3229#0" expanded="false" />
-                <element signature="e#3268#3327#0" expanded="false" />
-                <element signature="e#3332#3412#0" expanded="false" />
-                <element signature="e#3361#3410#0" expanded="false" />
-                <element signature="e#3484#3519#0" expanded="false" />
-                <element signature="e#3581#3618#0" expanded="false" />
-                <element signature="e#3619#3695#0" expanded="false" />
-                <element signature="e#3719#3765#0" expanded="false" />
-                <element signature="e#3789#3835#0" expanded="false" />
-                <element signature="e#4176#4772#0" expanded="false" />
-                <element signature="e#4814#4872#0" expanded="false" />
-                <element signature="e#4926#5030#0" expanded="false" />
-                <element signature="e#5081#5146#0" expanded="false" />
-                <element signature="e#5156#5261#0" expanded="false" />
-                <element signature="e#5272#5566#0" expanded="false" />
-                <element signature="e#5781#6047#0" expanded="false" />
-                <element signature="e#6063#6102#0" expanded="false" />
-                <element signature="e#6112#6308#0" expanded="false" />
-                <marker date="1473846683865" expanded="false" signature="234:401" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,21 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/css/blog.list.html" />
-        <option value="$PROJECT_DIR$/bk/template/blog.list.2.html" />
-        <option value="$PROJECT_DIR$/bk/static/js/blog.list.js" />
-        <option value="$PROJECT_DIR$/static/_lib/bootstrap/font.css" />
-        <option value="$PROJECT_DIR$/static/_lib/bootstrap/css/font.css" />
-        <option value="$PROJECT_DIR$/template/Originality/originality.list.html" />
-        <option value="$PROJECT_DIR$/data/json/nav.json" />
-        <option value="$PROJECT_DIR$/static/_lib/css/page.css" />
-        <option value="$PROJECT_DIR$/static/js/blog.list.js" />
-        <option value="$PROJECT_DIR$/template/none.html" />
-        <option value="$PROJECT_DIR$/static/css/originality.list.css" />
-        <option value="$PROJECT_DIR$/data/json/blog.list.json" />
-        <option value="$PROJECT_DIR$/static/css/nav.css" />
-        <option value="$PROJECT_DIR$/static/css/nav.2.css" />
-        <option value="$PROJECT_DIR$/static/css/blog.list.css" />
         <option value="$PROJECT_DIR$/static/css/personal.css" />
         <option value="$PROJECT_DIR$/static/sass/test.css" />
         <option value="$PROJECT_DIR$/static/sass/test.scss" />
@@ -217,9 +197,7 @@
         <option value="$PROJECT_DIR$/template/nav.html" />
         <option value="$PROJECT_DIR$/static/sass/nav.2.scss" />
         <option value="$PROJECT_DIR$/static/js/about.js" />
-        <option value="$PROJECT_DIR$/template/blog.list.html" />
         <option value="$PROJECT_DIR$/static/js/personal.js" />
-        <option value="$PROJECT_DIR$/template/personal.html" />
         <option value="$PROJECT_DIR$/data/json/personal.json" />
         <option value="$PROJECT_DIR$/static/_lib/css/common.css" />
         <option value="$PROJECT_DIR$/template/originality.list.html" />
@@ -227,20 +205,37 @@
         <option value="$PROJECT_DIR$/static/sass/page.scss" />
         <option value="$PROJECT_DIR$/static/css/index.css" />
         <option value="$PROJECT_DIR$/static/css/page.css" />
-        <option value="$PROJECT_DIR$/static/sass/blog.list.scss" />
-        <option value="$PROJECT_DIR$/static/sass/personal.scss" />
         <option value="$PROJECT_DIR$/static/sass/originality.list.scss" />
         <option value="$PROJECT_DIR$/template/code.html" />
         <option value="$PROJECT_DIR$/static/sass/media-queries.scss" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/template/about.html" />
-        <option value="$PROJECT_DIR$/static/sass/nav.scss" />
-        <option value="$PROJECT_DIR$/template/index.html" />
-        <option value="$PROJECT_DIR$/static/sass/common.scss" />
         <option value="$PROJECT_DIR$/static/sass/about.scss" />
-        <option value="$PROJECT_DIR$/static/sass/function.scss" />
+        <option value="$PROJECT_DIR$/static/sass/button.css" />
+        <option value="$PROJECT_DIR$/static/sass/button.scss" />
+        <option value="$PROJECT_DIR$/template/button.html" />
         <option value="$PROJECT_DIR$/static/sass/index.scss" />
+        <option value="$PROJECT_DIR$/template/personal.html" />
+        <option value="$PROJECT_DIR$/static/sass/personal.scss" />
+        <option value="$PROJECT_DIR$/static/sass/nav.scss" />
+        <option value="$PROJECT_DIR$/static/sass/common.scss" />
         <option value="$PROJECT_DIR$/template/test.html" />
+        <option value="$PROJECT_DIR$/static/css/blog.list.css" />
+        <option value="$PROJECT_DIR$/static/sass/function.scss" />
+        <option value="$PROJECT_DIR$/static/sass/blog.list.scss" />
+        <option value="$PROJECT_DIR$/data/json/nav.json" />
+        <option value="$PROJECT_DIR$/bk/template/about.2.html" />
+        <option value="$PROJECT_DIR$/template/about.2.html" />
+        <option value="$PROJECT_DIR$/template/index.html" />
+        <option value="$PROJECT_DIR$/template/blog.list.html" />
+        <option value="$PROJECT_DIR$/template/blog.info.html" />
+        <option value="$PROJECT_DIR$/static/sass/blog.info.scss" />
+        <option value="$PROJECT_DIR$/static/sass/owl.carousel.scss" />
+        <option value="$PROJECT_DIR$/static/sass/owl.theme.scss" />
+        <option value="$PROJECT_DIR$/static/sass/style.scss" />
+        <option value="$PROJECT_DIR$/static/sass/prettyPhoto.scss" />
+        <option value="$PROJECT_DIR$/static/sass/about.3.scss" />
+        <option value="$PROJECT_DIR$/template/about.3.html" />
       </list>
     </option>
   </component>
@@ -256,8 +251,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1383" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -331,10 +325,6 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -349,6 +339,10 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -361,37 +355,39 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/sass/index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../avesore.github.io" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\PC\static\js" />
       <recent name="D:\workspace\PC\static\_lib\img" />
       <recent name="D:\workspace\PC\static\css" />
       <recent name="D:\workspace\PC\static\_lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\PC\static\css2" />
-      <recent name="D:\workspace\PC\template" />
-      <recent name="D:\workspace\PC\static\_lib\bootstrap\css" />
-      <recent name="D:\workspace\PC\data\json" />
+      <recent name="D:\workspace\PC" />
+      <recent name="D:\workspace\PC\static\js" />
+      <recent name="D:\workspace\PC\static\_lib\fullpage" />
+      <recent name="D:\workspace\PC\static\_lib" />
+      <recent name="D:\workspace\PC\bk\static\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="defaut2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/bk/template/defaut2.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="blog.article.info.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/bk/template/blog.article.info.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="blog.list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/bk/template/blog.list.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="blog.list.2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/bk/template/blog.list.2.html">
+      <method />
+    </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/template/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="about.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/template/about.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="blog.list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/template/blog.list.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="code.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/template/code.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PC/template/test.html">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -441,19 +437,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.about.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.defaut2.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.blog.article.info.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.blog.list.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.code.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.blog.list.2.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.code.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.about.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.blog.list.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.blog.list.2.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.blog.list.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.blog.article.info.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.defaut2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -484,18 +480,21 @@
       <workItem from="1473475608842" duration="13941000" />
       <workItem from="1473646777023" duration="6040000" />
       <workItem from="1473732952092" duration="14254000" />
-      <workItem from="1473817066855" duration="14421000" />
+      <workItem from="1473817066855" duration="14476000" />
+      <workItem from="1474161296513" duration="7930000" />
+      <workItem from="1474177767526" duration="12942000" />
+      <workItem from="1474333680382" duration="5693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107748000" />
+    <option name="totallyTimeSpent" value="134368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1383" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1785174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25472412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -549,353 +548,457 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/none.html" />
-    <entry file="file://$PROJECT_DIR$/data/json/blog.list.json">
+    <entry file="file://$PROJECT_DIR$/bk/static/css/about/about.2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="161" selection-start-line="3" selection-start-column="161" selection-end-line="3" selection-end-column="161" />
+        <state relative-caret-position="276">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/lollypop/lollypop-tools/viewer/static/css/apply.css">
+    <entry file="file://$PROJECT_DIR$/bk/static/css/about/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/css/about/movement.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/css/about/page-4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/03.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/04.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/05.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/06.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/07.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/img/08.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/images/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/img/about/images/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/lib/jquery.easing.1.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/lib/jquery.fullPage.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/static/lib/jquery.isotope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/_lib/fullpage/jquery.fullPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/template/about.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="442" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/_lib/fullpage/jquery.fullPage.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1421413986000" expanded="true" signature="9460:9479" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/_lib/fullpage/jquery.fullPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/resumeEnter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/template/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax-cross-origin/js/jquery.ajax-cross-origin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax-cross-origin/demo.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax-cross-origin/proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax-cross-origin/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/test.css.map" />
-    <entry file="file://$PROJECT_DIR$/static/sass/test.css" />
-    <entry file="file://$PROJECT_DIR$/static/sassToCss/test.css" />
-    <entry file="file://$PROJECT_DIR$/static/sass/test.scss" />
-    <entry file="file://$PROJECT_DIR$/bk/static/js/jquery-3.1.0.js">
+    <entry file="file://$PROJECT_DIR$/template/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="1668" column="8" selection-start-line="1668" selection-start-column="8" selection-end-line="1668" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css2/about.css" />
-    <entry file="file://$PROJECT_DIR$/static/css2/blog.list.css" />
-    <entry file="file://$PROJECT_DIR$/static/css2/nav.2.css" />
-    <entry file="file://$PROJECT_DIR$/static/css2/nav.css" />
     <entry file="file://$PROJECT_DIR$/static/sass/index">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css2/originality.list.css" />
-    <entry file="file://$PROJECT_DIR$/static/css2/personal.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/blog.list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1277">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/nav.2.css" />
-    <entry file="file://$PROJECT_DIR$/static/sass/nav.2.scss" />
-    <entry file="file://$PROJECT_DIR$/template/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/personal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/blog.list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/personal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/json/personal.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/personal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/originality.list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/originality.list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/_lib/css/page.css" />
-    <entry file="file://$PROJECT_DIR$/static/_lib/css/common.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1679">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/blog.list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/personal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/originality.list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#148#258#0" expanded="false" />
-            <element signature="e#265#635#0" expanded="false" />
-            <element signature="e#375#478#0" expanded="false" />
-            <element signature="e#486#629#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/drag.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/media-queries.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#2257#3850#1" expanded="false" />
-            <element signature="e#3920#5669#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/blog.list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="e#208#407#0" expanded="false" />
-            <element signature="e#506#920#0" expanded="false" />
-            <element signature="e#936#987#0" expanded="false" />
-            <element signature="e#1008#1108#0" expanded="false" />
-            <element signature="e#1126#1206#0" expanded="false" />
-            <element signature="e#1218#1253#0" expanded="false" />
-            <element signature="e#1270#1427#0" expanded="false" />
-            <element signature="e#1439#1585#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/function.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <element signature="e#456#496#0" expanded="false" />
-            <element signature="e#552#593#0" expanded="false" />
-            <element signature="e#697#742#0" expanded="false" />
-            <element signature="e#766#916#0" expanded="false" />
-            <element signature="e#922#946#0" expanded="false" />
-            <element signature="e#1010#1704#0" expanded="false" />
-            <element signature="e#2194#2252#0" expanded="false" />
-            <element signature="e#2261#2354#0" expanded="false" />
-            <element signature="e#2381#2413#0" expanded="false" />
-            <element signature="e#2429#2494#0" expanded="false" />
-            <element signature="e#2512#2549#0" expanded="false" />
-            <element signature="e#2564#2583#0" expanded="false" />
-            <element signature="e#2655#2749#0" expanded="false" />
-            <element signature="e#2797#2842#0" expanded="false" />
-            <element signature="e#2944#2985#0" expanded="false" />
-            <element signature="e#3027#3082#0" expanded="false" />
-            <element signature="e#3112#3147#0" expanded="false" />
-            <element signature="e#3172#3229#0" expanded="false" />
-            <element signature="e#3268#3327#0" expanded="false" />
-            <element signature="e#3332#3412#0" expanded="false" />
-            <element signature="e#3361#3410#0" expanded="false" />
-            <element signature="e#3484#3519#0" expanded="false" />
-            <element signature="e#3581#3618#0" expanded="false" />
-            <element signature="e#3619#3695#0" expanded="false" />
-            <element signature="e#3719#3765#0" expanded="false" />
-            <element signature="e#3789#3835#0" expanded="false" />
-            <element signature="e#4176#4772#0" expanded="false" />
-            <element signature="e#4814#4872#0" expanded="false" />
-            <element signature="e#4926#5030#0" expanded="false" />
-            <element signature="e#5081#5146#0" expanded="false" />
-            <element signature="e#5156#5261#0" expanded="false" />
-            <element signature="e#5272#5566#0" expanded="false" />
-            <element signature="e#5781#6047#0" expanded="false" />
-            <element signature="e#6063#6102#0" expanded="false" />
-            <element signature="e#6112#6308#0" expanded="false" />
-            <marker date="1473846683865" expanded="false" signature="234:401" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sass/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/sass/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/blog.info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding>
-            <element signature="e#1123#1360#0" expanded="false" />
-            <element signature="e#1361#1590#0" expanded="false" />
-            <element signature="e#1591#1755#0" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/function.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#234#401#0" expanded="false" />
+            <element signature="e#456#496#0" expanded="false" />
+            <element signature="e#552#593#0" expanded="false" />
+            <element signature="e#1161#1206#0" expanded="false" />
+            <element signature="e#1230#1380#0" expanded="false" />
+            <element signature="e#1386#1410#0" expanded="false" />
+            <element signature="e#1474#2168#0" expanded="false" />
+            <element signature="e#2658#2716#0" expanded="false" />
+            <element signature="e#2725#2818#0" expanded="false" />
+            <element signature="e#2845#2877#0" expanded="false" />
+            <element signature="e#2893#2958#0" expanded="false" />
+            <element signature="e#2976#3013#0" expanded="false" />
+            <element signature="e#3028#3047#0" expanded="false" />
+            <element signature="e#3119#3213#0" expanded="false" />
+            <element signature="e#3261#3306#0" expanded="false" />
+            <element signature="e#3408#3449#0" expanded="false" />
+            <element signature="e#3491#3546#0" expanded="false" />
+            <element signature="e#3576#3611#0" expanded="false" />
+            <element signature="e#3636#3693#0" expanded="false" />
+            <element signature="e#3732#3791#0" expanded="false" />
+            <element signature="e#3796#3876#0" expanded="false" />
+            <element signature="e#3825#3874#0" expanded="false" />
+            <element signature="e#3948#3983#0" expanded="false" />
+            <element signature="e#4045#4082#0" expanded="false" />
+            <element signature="e#4083#4159#0" expanded="false" />
+            <element signature="e#4183#4229#0" expanded="false" />
+            <element signature="e#4253#4299#0" expanded="false" />
+            <element signature="e#4640#5236#0" expanded="false" />
+            <element signature="e#5278#5336#0" expanded="false" />
+            <element signature="e#5390#5494#0" expanded="false" />
+            <element signature="e#5545#5610#0" expanded="false" />
+            <element signature="e#5620#5725#0" expanded="false" />
+            <element signature="e#5736#6030#0" expanded="false" />
+            <element signature="e#6245#6511#0" expanded="false" />
+            <element signature="e#6527#6566#0" expanded="false" />
+            <element signature="e#6576#6772#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/blog.list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="268" column="7" selection-start-line="260" selection-start-column="6" selection-end-line="268" selection-end-column="7" />
+          <folding>
+            <element signature="e#197#4022#0" expanded="false" />
+            <element signature="e#1527#1623#0" expanded="false" />
+            <element signature="e#3197#3611#0" expanded="false" />
+            <element signature="e#3614#4020#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/blog.list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="151" column="53" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="53" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#4717#4723#0" expanded="false" />
+            <element signature="e#4727#4733#0" expanded="false" />
+            <element signature="e#5628#5634#0" expanded="false" />
+            <element signature="e#5638#5644#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/blog.info.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="61" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/blog.info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1262#1268#0" expanded="false" />
+            <element signature="e#1272#1278#0" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/owl.carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/owl.theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/about.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="445" column="59" selection-start-line="445" selection-start-column="59" selection-end-line="446" selection-end-column="68" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7199">
+          <caret line="712" column="0" selection-start-line="712" selection-start-column="0" selection-end-line="712" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/prettyPhoto.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sass/about.3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/about.3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
