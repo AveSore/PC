@@ -109,6 +109,12 @@ $lte7:true;
     border-bottom:$size dashed transparent;
   }
 }
+@mixin htmlBg($url) {
+  background: #fff url($url) no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
 //设置宽高，默认为auto
 @mixin size($size...) {
   $size: if(length($size) > 0, $size, auto);

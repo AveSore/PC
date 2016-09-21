@@ -1,0 +1,57 @@
+extends layout
+block title
+    title 博客列表
+block append css
+    link(rel="stylesheet" href="../static/css/blog.list.css")
+block append body
+    .content-mask
+        .content.show-by-date
+            .info
+                .head-img
+                    img(src="../static/img/user.jpg")
+                p.name  抓住时间的尾巴
+                p.specific  前端开发工程师，爱生活爱技术
+                .tag-lists
+                    ul
+                        li 前端
+                        li 前端
+                        li 前端
+                        li 前端
+                .canvas
+            .blog-lists
+                h2  2016年07月
+                ul
+                    li
+                        label(for="date")   29日
+                        h3
+                            a(href="blog.info.html")
+                                span    Ansible实战 lnmp 安装
+                    li
+                        label(for="date")   29日
+                        h3
+                            a(href="blog.info.html")
+                                span    Ansible实战 lnmp 安装
+                    li
+                        label(for="date")   29日
+                        h3
+                            a(href="blog.info.html")
+                                span    Ansible实战 lnmp 安装
+                h2  2016年07月
+                    ul
+                        li
+                            label(for="date")   29日
+                            h3
+                                a(href="blog.info.html")
+                                    span    Ansible实战 lnmp 安装
+                        li
+                            label(for="date")   29日
+                            h3
+                                a(href="blog.info.html")
+                                    span    Ansible实战 lnmp 安装
+                        li
+                            label(for="date")   29日
+                            h3
+                                a(href="blog.info.html")
+                                    span    Ansible实战 lnmp 安装
+block append js
+    script(src="../static/js/blog.list.js")

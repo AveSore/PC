@@ -7,7 +7,6 @@ html{
   background-attachment:fixed;
   background-size: 100% 100%;
 }
-
 .show-by-date{
   &{
     overflow: hidden;
@@ -179,101 +178,5 @@ html{
       transform: translate3d(0, 0, 0);
     }
 
-  }
-}
-
-.show-by-detail{
-  &{
-    background: rgba(255,255,255,0.5);
-    margin-top: 50px;
-    overflow: hidden;
-  }
-  .info{
-    width: 20%;
-    float: left;
-    overflow: hidden;
-    .head-img{
-      width: 100px;
-      height: 100px;
-      border-radius: 100%;
-      margin: 0 auto;
-      img{
-        width: 100px;
-        height: 100px;
-        border-radius: 100%;
-      }
-    }
-    p{
-      &{
-        text-align: center;
-        color: #fff;
-      }
-      &.name{
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-      &.specific{
-        font-size: 15px;
-      }
-    }
-    .tag-lists{
-      ul{
-        width: 80%;
-        margin: 20px auto;
-        height: 150px;
-        overflow-y: scroll;
-        @include scroll-style;
-        li{
-          height: 30px;
-          line-height: 30px;
-          padding-left: 20px;
-          color: greenyellow;
-          &:hover{
-            background: lightblue;
-            color: #fff;
-          }
-        }
-      }
-    }
-  }
-  .blog-lists{
-    width: 80%;
-    padding-left: 30px;
-    float: left;
-    overflow: hidden;
-    li{
-      padding: 20px;
-      h2{
-        border-left: 3px solid #ddd;
-        padding-left: 20px;
-        margin-bottom: 20px;
-        a{
-          color: #b5b5b5;
-        }
-        &:hover{
-          border-left: 3px solid #9c9;
-          a{
-            color: #9c9;
-          }
-        }
-      }
-      .tags{
-        margin-bottom: 15px;
-        span{
-          margin-right: 20px;
-          i{
-            margin-right: 10px;
-          }
-        }
-      }
-      .detail{
-        p{
-          font-size: 15px;
-          line-height: 25px;
-          text-indent: 2em;
-        }
-      }
-    }
   }
 }

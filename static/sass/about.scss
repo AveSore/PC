@@ -13,129 +13,131 @@ body{
   line-height: 20px;
   #content{
     & {
-      @include paddingBlock(80px,0,50px,0);
+      padding: 80px 0 50px 0;
     }
     .w1190 {
       background: transparent;
       border: 1px solid $descBgColor;
       overflow: hidden;
-      width: 1190px;
-      @include center-block;
+      width: 80%;
+      margin: 0 auto;
     }
-    .desc{
-      & {
-        width: 20%;
-        min-height: 500px;
-        background: $descBgColor;
-        color: $descColor;
-        @include paddingBlock($bottom:100px);
-        float: left;
-      }
-      .img {
-        width: 130px;
-        height: 180px;
-        overflow: hidden;
-        @include marginBlock(50px,auto,50px,auto);
-        border: 5px solid $descColor;
-      }
-      img {
-        width: 130px;
-        height: 180px;
-      }
-      .person-info{
+    .col-md-3{
+      padding: 0 0 60px 0;
+      background: #234463;
+      .desc{
         & {
-          width: 160px;
-          @include marginBlock(0,0,0,20px);
+          min-height: 500px;
+          background: $descBgColor;
+          color: $descColor;
+          padding: 50px 0 100px 0;
         }
-        li {
-          line-height: 30px;
+        .img {
+          width: 130px;
+          height: 180px;
+          overflow: hidden;
+          margin: 0 auto 50px auto;
+          border: 5px solid $descColor;
         }
-        .glyphicon{
-          @include marginBlock(0,5px,0,0);
+        img {
+          width: 130px;
+          height: 180px;
         }
-      }
-      .skill{
-        & {
-          width: 100px;
-          @include marginBlock(50px,0,0,20px);
-        }
-        li{
-          border-bottom: 8px solid $descHobbyColor;
-          padding-bottom: 10px;
-          @include marginBlock($bottom:20px);
-        }
-      }
-      p.hobby-title {
-        color: $descHobbyColor;
-        font-size: 15px;
-        font-weight: bold;
-        @include marginBlock(70px,0,0,20px);
-      }
-      .hobby{
-        & {
-          width: 160px;
-        }
-        li {
+        .person-info{
           & {
-            float: left;
-            width: 50%;
-            text-align: center;
-            @include marginBlock($top:20px);
-            color: $descHobbyColor;
+            width: 160px;
+            margin: 0 0 0 20px;
           }
-          i {
-            width: 40px;
-            height: 40px;
-            border: 2px solid $descHobbyColor;
-            border-radius: 40px;
-            line-height: 40px;
-            display: block;
-            @include marginBlock($left:20px,$bottom:20px);
+          li {
+            line-height: 30px;
+          }
+          .glyphicon{
+            margin-right: 5px;
+          }
+        }
+        .skill{
+          & {
+            width: 100px;
+            margin: 50px 0 0 20px;
+          }
+          li{
+            border-bottom: 8px solid $descHobbyColor;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+          }
+        }
+        p.hobby-title {
+          color: $descHobbyColor;
+          font-size: 15px;
+          font-weight: bold;
+          margin: 70px 0 0 20px;
+        }
+        .hobby{
+          & {
+            width: 160px;
+          }
+          li {
+            & {
+              float: left;
+              width: 50%;
+              text-align: center;
+              margin-top: 20px;
+              color: $descHobbyColor;
+            }
+            i {
+              width: 40px;
+              height: 40px;
+              border: 2px solid $descHobbyColor;
+              border-radius: 40px;
+              line-height: 40px;
+              display: block;
+              margin: 0 0 20px 20px;
+            }
           }
         }
       }
     }
-    .content{
-      & {
-        width: 80%;
-        min-height: 500px;
-        color: $descBgColor;
-        @include paddingBlock($left:40px,$right:40px);
-        float: right;
-      }
-      h1.name {
-        @include marginBlock(20px,0,10px,0);
-        font-weight: 900;
-      }
-      p.target{
-        margin-bottom: 40px;
-        @include marginBlock($bottom:40px);
-        font-weight: bold;
-      }
-      .list{
-        &{
-          @include marginBlock(20px,0,20px,0);
+    .col-md-9{
+      padding: 0;
+      .content{
+        & {
+          min-height: 500px;
+          color: $descBgColor;
+          margin: 0 40px;
         }
-        .info{
-          & {
-            @include marginBlock($bottom:20px);
-          }
-          span{
-            display: inline-block;
-            color: $descBgColor;
-            @include marginBlock($right:30px);
-          }
+        h1.name {
+          margin: 20px 0;
+          font-weight: 900;
         }
-        h2{
+        p.target{
+          margin-bottom: 40px;
+          font-weight: bold;
+        }
+        .list{
           &{
-            border-bottom: 2px solid $descBgColor;
-            @include marginBlock($bottom:10px,$left:50px);
-            height: 50px;
+            margin: 20px 0;
           }
-          i{
-            font-size: 40px;
-            @include marginBlock($bottom:10px,$left:-47px);
-            float: left;
+          .info{
+            & {
+              margin-bottom: 20px;
+            }
+            span{
+              display: inline-block;
+              color: $descBgColor;
+              margin-right: 30px;
+            }
+          }
+          h2{
+            &{
+              border-bottom: 2px solid $descBgColor;
+              margin: 0 0 10px 50px;
+              height: 50px;
+            }
+            i{
+              font-size: 40px;
+              margin: 0 0 10px -47px;
+              float: left;
+            }
           }
         }
       }

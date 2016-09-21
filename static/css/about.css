@@ -113,8 +113,8 @@ html {
 
 html,
 body {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
+  padding: 0;
   cursor: default;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
@@ -140,8 +140,8 @@ h6,
 p,
 ul,
 li {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0; }
+  margin: 0;
+  padding: 0; }
 
 a {
   text-decoration: none; }
@@ -229,87 +229,87 @@ body {
     background: transparent;
     border: 1px solid #234463;
     overflow: hidden;
-    width: 1190px;
-    margin: 0 auto; }
-  body #content .desc {
-    width: 20%;
-    min-height: 500px;
-    background: #234463;
-    color: #e3effb;
-    padding: 0 0 100px 0;
-    float: left; }
-  body #content .desc .img {
-    width: 130px;
-    height: 180px;
-    overflow: hidden;
-    margin: 50px auto 50px auto;
-    border: 5px solid #e3effb; }
-  body #content .desc img {
-    width: 130px;
-    height: 180px; }
-  body #content .desc .person-info {
-    width: 160px;
-    margin: 0 0 0 20px; }
-  body #content .desc .person-info li {
-    line-height: 30px; }
-  body #content .desc .person-info .glyphicon {
-    margin: 0 5px 0 0; }
-  body #content .desc .skill {
-    width: 100px;
-    margin: 50px 0 0 20px; }
-  body #content .desc .skill li {
-    border-bottom: 8px solid #93a9bc;
-    padding-bottom: 10px;
-    margin: 0 0 20px 0; }
-  body #content .desc p.hobby-title {
-    color: #93a9bc;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 70px 0 0 20px; }
-  body #content .desc .hobby {
-    width: 160px; }
-  body #content .desc .hobby li {
-    float: left;
-    width: 50%;
-    text-align: center;
-    margin: 20px 0 0 0;
-    color: #93a9bc; }
-  body #content .desc .hobby li i {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #93a9bc;
-    border-radius: 40px;
-    line-height: 40px;
-    display: block;
-    margin: 0 0 20px 20px; }
-  body #content .content {
     width: 80%;
-    min-height: 500px;
-    color: #234463;
-    padding: 0 40px 0 40px;
-    float: right; }
-  body #content .content h1.name {
-    margin: 20px 0 10px 0;
-    font-weight: 900; }
-  body #content .content p.target {
-    margin-bottom: 40px;
-    margin: 0 0 40px 0;
-    font-weight: bold; }
-  body #content .content .list {
-    margin: 20px 0 20px 0; }
-  body #content .content .list .info {
-    margin: 0 0 20px 0; }
-  body #content .content .list .info span {
-    display: inline-block;
-    color: #234463;
-    margin: 0 30px 0 0; }
-  body #content .content .list h2 {
-    border-bottom: 2px solid #234463;
-    margin: 0 0 10px 50px;
-    height: 50px; }
-  body #content .content .list h2 i {
-    font-size: 40px;
-    margin: 0 0 10px -47px;
-    float: left; }
+    margin: 0 auto; }
+  body #content .col-md-3 {
+    padding: 0 0 60px 0;
+    background: #234463; }
+    body #content .col-md-3 .desc {
+      min-height: 500px;
+      background: #234463;
+      color: #e3effb;
+      padding: 50px 0 100px 0; }
+    body #content .col-md-3 .desc .img {
+      width: 130px;
+      height: 180px;
+      overflow: hidden;
+      margin: 0 auto 50px auto;
+      border: 5px solid #e3effb; }
+    body #content .col-md-3 .desc img {
+      width: 130px;
+      height: 180px; }
+    body #content .col-md-3 .desc .person-info {
+      width: 160px;
+      margin: 0 0 0 20px; }
+    body #content .col-md-3 .desc .person-info li {
+      line-height: 30px; }
+    body #content .col-md-3 .desc .person-info .glyphicon {
+      margin-right: 5px; }
+    body #content .col-md-3 .desc .skill {
+      width: 100px;
+      margin: 50px 0 0 20px; }
+    body #content .col-md-3 .desc .skill li {
+      border-bottom: 8px solid #93a9bc;
+      padding-bottom: 10px;
+      margin-bottom: 20px; }
+    body #content .col-md-3 .desc p.hobby-title {
+      color: #93a9bc;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 70px 0 0 20px; }
+    body #content .col-md-3 .desc .hobby {
+      width: 160px; }
+    body #content .col-md-3 .desc .hobby li {
+      float: left;
+      width: 50%;
+      text-align: center;
+      margin-top: 20px;
+      color: #93a9bc; }
+    body #content .col-md-3 .desc .hobby li i {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #93a9bc;
+      border-radius: 40px;
+      line-height: 40px;
+      display: block;
+      margin: 0 0 20px 20px; }
+  body #content .col-md-9 {
+    padding: 0; }
+    body #content .col-md-9 .content {
+      min-height: 500px;
+      color: #234463;
+      margin: 0 40px; }
+    body #content .col-md-9 .content h1.name {
+      margin: 20px 0;
+      font-weight: 900; }
+    body #content .col-md-9 .content p.target {
+      margin-bottom: 40px;
+      font-weight: bold; }
+    body #content .col-md-9 .content .list {
+      margin: 20px 0; }
+    body #content .col-md-9 .content .list .info {
+      margin-bottom: 20px; }
+    body #content .col-md-9 .content .list .info span {
+      display: inline-block;
+      color: #234463;
+      margin-right: 30px; }
+    body #content .col-md-9 .content .list h2 {
+      border-bottom: 2px solid #234463;
+      margin: 0 0 10px 50px;
+      height: 50px; }
+    body #content .col-md-9 .content .list h2 i {
+      font-size: 40px;
+      margin: 0 0 10px -47px;
+      float: left; }
 
 /*# sourceMappingURL=about.css.map */

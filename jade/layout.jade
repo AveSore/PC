@@ -1,3 +1,4 @@
+- var meta = { keywords: '关键字',description: '形容' }
 doctype html
 html(lang=en)
     head
@@ -9,13 +10,16 @@ html(lang=en)
         //可以让部分国产浏览器默认采用高速模式渲染页面,目前只有360浏览器支持此 <meta> 标签
 
         block title
-            title Default title
+            title Default
+        meta(name="keywords" content= #{ meta.keywords })
+        meta(name="description" content= #{ meta.description })
 
         block css
             link(rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico")
     body
         block body
             header
+                include header
 
         block js
             script(src="../static/_lib/js/jquery-3.1.0.min.js")

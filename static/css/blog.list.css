@@ -113,8 +113,8 @@ html {
 
 html,
 body {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
+  padding: 0;
   cursor: default;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
@@ -140,8 +140,8 @@ h6,
 p,
 ul,
 li {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0; }
+  margin: 0;
+  padding: 0; }
 
 a {
   text-decoration: none; }
@@ -369,88 +369,5 @@ html {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
-.show-by-detail {
-  background: rgba(255, 255, 255, 0.5);
-  margin-top: 50px;
-  overflow: hidden; }
-.show-by-detail .info {
-  width: 20%;
-  float: left;
-  overflow: hidden; }
-  .show-by-detail .info .head-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    margin: 0 auto; }
-    .show-by-detail .info .head-img img {
-      width: 100px;
-      height: 100px;
-      border-radius: 100%; }
-  .show-by-detail .info p {
-    text-align: center;
-    color: #fff; }
-  .show-by-detail .info p.name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px; }
-  .show-by-detail .info p.specific {
-    font-size: 15px; }
-  .show-by-detail .info .tag-lists ul {
-    width: 80%;
-    margin: 20px auto;
-    height: 150px;
-    overflow-y: scroll;
-    /* 这是针对缺省样式 (必须的) */
-    /* 滚动条的滑轨背景颜色 */
-    /* 滑块颜色 */
-    /* 滑轨两头的监听按钮颜色 */
-    /* 横向滚动条和纵向滚动条相交处尖角的颜色 */ }
-    .show-by-detail .info .tag-lists ul::-webkit-scrollbar {
-      width: 5px; }
-    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-track {
-      background-color: #000; }
-    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-thumb {
-      background-color: lightblue; }
-    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-button {
-      width: 0;
-      height: 0;
-      background-color: #000; }
-    .show-by-detail .info .tag-lists ul::-webkit-scrollbar-corner {
-      background-color: black; }
-    .show-by-detail .info .tag-lists ul li {
-      height: 30px;
-      line-height: 30px;
-      padding-left: 20px;
-      color: greenyellow; }
-      .show-by-detail .info .tag-lists ul li:hover {
-        background: lightblue;
-        color: #fff; }
-.show-by-detail .blog-lists {
-  width: 80%;
-  padding-left: 30px;
-  float: left;
-  overflow: hidden; }
-  .show-by-detail .blog-lists li {
-    padding: 20px; }
-    .show-by-detail .blog-lists li h2 {
-      border-left: 3px solid #ddd;
-      padding-left: 20px;
-      margin-bottom: 20px; }
-      .show-by-detail .blog-lists li h2 a {
-        color: #b5b5b5; }
-      .show-by-detail .blog-lists li h2:hover {
-        border-left: 3px solid #9c9; }
-        .show-by-detail .blog-lists li h2:hover a {
-          color: #9c9; }
-    .show-by-detail .blog-lists li .tags {
-      margin-bottom: 15px; }
-      .show-by-detail .blog-lists li .tags span {
-        margin-right: 20px; }
-        .show-by-detail .blog-lists li .tags span i {
-          margin-right: 10px; }
-    .show-by-detail .blog-lists li .detail p {
-      font-size: 15px;
-      line-height: 25px;
-      text-indent: 2em; }
 
 /*# sourceMappingURL=blog.list.css.map */
