@@ -1,0 +1,44 @@
+mixin tagbox(list)
+    - each info in list
+        a(href="#" ) #{info}
+        a(href="#" class="red") #{info}
+        a(href="#" class="blue") #{info}
+- pets = [{'class':'red','name':'php'},{'class':'blue','name':'haha'},{'class':'','name':'rtf'}]
+mixin taglist(#{pets})
+    - for (var i = 0; i < 3; ++i)
+        a(href="#" class="blue") #{pets}[i].name
+extends layout
+block title
+    title 主页
+    - var meta = { keywords: '首页关键字2',description: '形容' }
+    meta(name="keywords", content="#{meta.keywords}")
+    meta(name="description", content="#{meta.description}")
+block append css
+    link(rel="stylesheet" href="../static/_lib/bootstrap/css/bootstrap.min.css")
+    link(rel="stylesheet" href="../static/css/qiu.css")
+block body
+    .wrap
+        .inner
+        .x
+            .x1
+            .x2
+            .xInner
+            .y1
+            .y2
+            .yInner
+            .z1
+            .z2
+            .zInner
+    #container
+        #translation
+            #ball
+
+    #tagbox
+        + tagbox(['cat', 'php', 'ff', 'cat', 'rt', 'sa'])
+        + tagbox(['cat', 'php', 'ff', 'cat', 'rt', 'sa'])
+        + tagbox(['cat', 'php', 'ff', 'cat', 'rt', 'sa'])
+
+    #goback(title="回到顶部")
+        i.glyphicon.glyphicon-chevron-up
+block append js
+    script(src="../static/js/qiu.js")

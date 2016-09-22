@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <!--可以让部分国产浏览器默认采用高速模式渲染页面,目前只有360浏览器支持此 <meta> 标签-->
-    <title>个人站点</title>
+    <title>关于我</title>
     <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico">
-    <link rel="stylesheet" href="../static/css/personal.css">
+    <link rel="stylesheet" href="../static/css/about.css">
   </head>
   <body>
     <header>
@@ -28,25 +28,9 @@
     </header>
     <div id="main">
     </div>
-    <div id="content">
-      <div id="personal-list" class="container-fluid">
-        <div class="row">
-          <template v-for="list in lists">
-            <div class="col-md-3 info"><i class="glyphicon glyphicon-">{{list.icon}}</i>
-              <h2>{{ list.category }}</h2>
-              <p class="title">{{ list.title }}</p>
-              <div class="descmask">
-                <p class="desc"> {{ list.desc }}</p>
-              </div>
-            </div>
-            <div class="col-md-1"></div>
-          </template>
-        </div>
-      </div>
-    </div>
     <script src="../static/_lib/js/jquery-3.1.0.min.js"></script>
     <script src="../static/_lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="../static/_lib/js/vue/vue.js"></script>
-    <script src="../static/js/personal.js"></script>
+    <script src="../static/js/about.js"></script>
   </body>
 </html>

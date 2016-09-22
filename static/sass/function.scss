@@ -1,85 +1,13 @@
-@mixin bg($url){
-  background: #000 url($url) no-repeat center;
-  background-size: 100%;
+//html背景
+@mixin htmlBg($url) {
+  background: #fff url($url) no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
 }
-@mixin absoluteBlock($top:0,$left:0) {
-  position: absolute;
-  top:$top;
-  left: $left;
-}
-@mixin fixedBlock($top:0,$left:0,$right:0,$bottom:0) {
-  position: fixed;
-  @if($bottom != 0){
-    bottom: $bottom;
-  } @else {
-    top: $top;
-  }
-  @if($right != 0){
-    right: $right;
-  } @else {
-    left: $left;
-  }
-}
-@mixin marginBlock($top:0,$right:0,$bottom:0,$left:0) {
-  margin: $top $right $bottom $left;
-}
-@mixin paddingBlock($top:0,$right:0,$bottom:0,$left:0) {
-  padding: $top $right $bottom $left;
-}
-//居中板块
-@mixin center-block{
-  margin: 0 auto;
-}
-
-//滚动条样式
-@mixin scroll-style(){
-  &::-webkit-scrollbar {
-    width: 5px;
-  } /* 这是针对缺省样式 (必须的) */
-  &::-webkit-scrollbar-track {
-    background-color: #000;
-  } /* 滚动条的滑轨背景颜色 */
-
-  &::-webkit-scrollbar-thumb {
-    background-color: lightblue;
-  } /* 滑块颜色 */
-
-  &::-webkit-scrollbar-button {
-    width: 0;
-    height: 0;
-    background-color: #000;
-  } /* 滑轨两头的监听按钮颜色 */
-
-  &::-webkit-scrollbar-corner {
-    background-color: black;
-  } /* 横向滚动条和纵向滚动条相交处尖角的颜色 */
-}
-//%是占位符
-%center-block{
-  @include center-block;
-}
-.test{
-  width: 100px;
-  @extend  %center-block;
-}
-
-$lte7:true;
-%clearfix {
-  @if $lte7 {
-    *zoom: 1;
-  }
-  &:before,
-  &:after {
-    content: "";
-    display: table;
-    font: 0/0 a;
-  }
-  &:after {
-    clear: both;
-  }
-}
-.wrap{
-  @extend %clearfix;
+@mixin fixedBg($url){
+  @include htmlBg($url);
+  background-attachment:fixed;
 }
 
 // triangle
@@ -109,151 +37,36 @@ $lte7:true;
     border-bottom:$size dashed transparent;
   }
 }
-@mixin htmlBg($url) {
-  background: #fff url($url) no-repeat;
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-}
-//设置宽高，默认为auto
-@mixin size($size...) {
-  $size: if(length($size) > 0, $size, auto);
-  $width: nth($size, 1);
-  $height: nth($size, length($size));
+//滚动条样式
+@mixin scroll-style(){
+  &::-webkit-scrollbar {
+    width: 5px;
+  } /* 这是针对缺省样式 (必须的) */
+  &::-webkit-scrollbar-track {
+    background-color: #000;
+  } /* 滚动条的滑轨背景颜色 */
 
-  @if $width != auto {
-    $width: if(unitless($width), $width + px, $width);
-  }
-  @if $height != auto {
-    $height: if(unitless($height), $height + px, $height);
-  }
+  &::-webkit-scrollbar-thumb {
+    background-color: lightblue;
+  } /* 滑块颜色 */
 
-  width: $width;
-  height: $height;
-}
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    background-color: #000;
+  } /* 滑轨两头的监听按钮颜色 */
 
-//不指定有多少个参数
-@mixin box-shadow($shadow...){
-  -webkit-box-shadow:$shadow;
-  -moz-box-shadow:$shadow;
-  box-shadow:$shadow;
+  &::-webkit-scrollbar-corner {
+    background-color: black;
+  } /* 横向滚动条和纵向滚动条相交处尖角的颜色 */
 }
-.shadow1{
-  @include box-shadow(0 0 5px rgba(0,0,0,.3));//这个可以运行
-}
-.shadow2{
-  @include box-shadow(0 0 5px rgba(0,0,0,.3),inset 0 0 3px rgba(255,255,255,.5));//这个不可运行
-}
-
-//content调用
-@mixin header{
-  #header{
-    @content;
-  }
-}
-@include header{
-  width:1000px;
-  height:200px;
-  .logo{
-    width:200px;
-  }
-}
-//最后会编译成
-#header {
-  width: 1000px;
-  height: 200px;
-}
-#header .logo {
-  width: 200px;
-}
-
-//content具体
-//定义media-queries的最小最大宽度
-@mixin screen($res-min, $res-max){
-  @media screen and ( min-width: $res-min ) and ( max-width: $res-max ){
-    @content;
-  }
-}
-//定义animation的keyframes
-@mixin keyframes($name){
-  @keyframes #{$name} {
-    @content;
-  }
-}
-//定义所有不支持圆角的浏览器使用背景图片
-//得使用[modernizr](http://modernizr.com/)来检测，在html上加class
-@mixin no-border-radius{
-  .no-border-radius{
-    @content
-  }
-}
-//又到调用这步了，没办法，不验证下，产生点css，还是有点迷惑：
-#header{
-  @include screen(780px,1000px){
-    color:red;
-  }
-}
-@include screen(780px,1000px){
-  body{
-    font-size:14px;
-  }
-}
-@include keyframes(show){
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-//注意下面这两个的区别
-@include no-border-radius{
-  .box{
-    background:url(round-bg.gif) no-repeat;
-  }
-}
-.box{
-  @include no-border-radius{
-    background:url(round-bg.gif) no-repeat;
-  }
-}
-//解析后的css
-@media screen and (min-width: 780px) and (max-width: 1000px) {
-  #header {
-    color: red;
-  }
-}
-@media screen and (min-width: 780px) and (max-width: 1000px) {
-  body {
-    font-size: 14px;
-  }
-}
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-.no-border-radius .box {
-  background: url(round-bg.gif) no-repeat;
-}
-.box .no-border-radius {
-  background: url(round-bg.gif) no-repeat;
-}
-
-
 //是否支持某个浏览器的前缀，如果你不想支持，可以设置为false
-//----------------------------
 $prefix-for-webkit: true !default;
 $prefix-for-mozilla: true !default;
 $prefix-for-microsoft: true !default;
 $prefix-for-opera: true !default;
 $prefix-for-spec: true !default; // 标准版
 // prefixer
-//----------------------------
 @mixin prefixer ($property, $value, $prefixes) {
   @each $prefix in $prefixes {
 
@@ -278,6 +91,7 @@ $prefix-for-spec: true !default; // 标准版
   }
 }
 //webki和标准
+//不指定有多少个参数
 @mixin box-shadow($shadow...) {
   @include prefixer(box-shadow, $shadow, webkit spec);
 }
@@ -290,28 +104,58 @@ $prefix-for-spec: true !default; // 标准版
 @mixin transform($property...) {
   @include prefixer(transform, $property, webkit moz o spec);
 }
-//调用
-.box{
-  @include box-shadow(0 0 5px rgba(0,0,0,.3));
-  @include box-sizing;
-  @include transform(scale(2));
+@mixin transition($property...) {
+  @include prefixer(transition, $property, webkit moz o spec);
 }
-//编译
-.box {
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform: scale(2);
-  -moz-transform: scale(2);
-  -o-transform: scale(2);
-  transform: scale(2);
+@mixin animation($property...) {
+  @include prefixer(animation, $property, webkit moz o spec);
+}
+//定义animation的keyframes
+@mixin keyframes($name){
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-o-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+//%是占位符
+$lte7:true;
+%clearfix {
+  @if $lte7 {
+    *zoom: 1;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+    font: 0/0 a;
+  }
+  &:after {
+    clear: both;
+  }
+}
+.wrap{
+  @extend %clearfix;
+}
+
+//定义media-queries的最小最大宽度
+@mixin screen($res-min, $res-max){
+  @media screen and ( min-width: $res-min ) and ( max-width: $res-max ){
+    @content;
+  }
 }
 
 //自定义@function
 //960网格布局
-$_columns: 12 !default;      // 总列数
+/*$_columns: 12 !default;      // 总列数
 $_column-width: 60px !default;   // 单列宽
 $_gutter: 20px !default;     // 间隔
 
@@ -342,4 +186,4 @@ $_gutter: 20px !default;     // 间隔
       width:get_width(3,true,10px); //210px
     }
   }
-}
+}*/

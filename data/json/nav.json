@@ -5,6 +5,6 @@
   {"name":"About3","url":"about.3.html","title":"关于我3"},
   {"name":"Blog","url":"blog.list.html","title":"博客列表"},
   {"name":"Personal","url":"personal.html","title":"个人站点"},
-  {"name":"Originality","url":"originality.list.html","title":"创意"},
-  {"name":"Admin","url":"","title":"后台系统"}
+  {"name":"Originality","url":"originality.list.html","title":"创意站点"},
+  {"name":"Admin","url":"admin.html","title":"后台系统"}
 ]

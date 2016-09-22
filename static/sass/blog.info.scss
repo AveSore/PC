@@ -1,11 +1,7 @@
 @import "common";
 @import "nav";
 html{
-  background: #fff url("../img/2.jpg") no-repeat;
-  width: 100%;
-  height: 100%;
-  background-attachment:fixed;
-  background-size: 100% 100%;
+  @include fixedBg("../img/2.jpg");
 }
 .content{
   &{
@@ -13,18 +9,18 @@ html{
     border-radius: 12px;
     padding: 30px;
     background: rgba(255,255,255,0.6);
-    @include marginBlock(100px,auto,50px,auto);
+    margin: 100px auto 50px auto;
   }
   h1{
     text-align: center;
   }
   .tags{
     text-align: center;
-    @include marginBlock(20px,auto,20px,auto);
+    margin: 20px 0;
     span{
-      @include marginBlock($right:20px);
+      margin-right: 20px;
       i{
-        @include marginBlock($right:10px);
+        margin-right: 10px;
       }
     }
   }
@@ -38,7 +34,7 @@ html{
       width: 100%;
       border-radius: 6px;
       display: block;
-      @include marginBlock(20px,auto,20px,auto);
+      margin: 20px 0;
     }
   }
 }

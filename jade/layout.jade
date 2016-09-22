@@ -1,4 +1,5 @@
 - var meta = { keywords: '关键字',description: '形容' }
+
 doctype html
 html(lang=en)
     head
@@ -11,15 +12,20 @@ html(lang=en)
 
         block title
             title Default
-        meta(name="keywords" content= #{ meta.keywords })
-        meta(name="description" content= #{ meta.description })
+            meta(name="keywords", content="#{meta.keywords}")
+            meta(name="description", content="#{meta.description}")
 
         block css
             link(rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico")
     body
         block body
-            header
-                include header
+            block header
+                header
+                    include header
+            #main
+                block main
+
+            block footer
 
         block js
             script(src="../static/_lib/js/jquery-3.1.0.min.js")

@@ -1,23 +1,21 @@
 extends layout
 block title
     title 主页
-block keywords
+    - var meta = { keywords: '首页关键字2',description: '形容' }
+    meta(name="keywords", content="#{meta.keywords}")
+    meta(name="description", content="#{meta.description}")
 
 block append css
     link(rel="stylesheet" href="../static/css/index.css")
-block append body
+block main
     #mask
     .content
         h1 前端开发工程师
-        h2 爱生活爱技术
-        #button
-            .svg-wrapper
-                svg(height="40" width="150")
-                    rect(id="shape" height="40" width="150")
-                    .text
-                        a(href="about.html") 了解我
-                            span.spot
+        p 爱生活爱技术
+        .button
+            svg(height="40" width="150")
+                rect(id="shape" height="40" width="150")
+                .text
+                    a(href="about.html") 了解我
 block append js
     script(src="../static/js/index.js")
-
-
