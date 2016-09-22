@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51599245-4069-4bd1-81b9-3ea01b5adc68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jade/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/json/nav.json" afterPath="$PROJECT_DIR$/data/json/nav.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/about.jade" afterPath="$PROJECT_DIR$/jade/about.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/blog.list.jade" afterPath="$PROJECT_DIR$/jade/blog.list.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/layout.jade" afterPath="$PROJECT_DIR$/jade/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/originality.list.jade" afterPath="$PROJECT_DIR$/jade/originality.list.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/about.css" afterPath="$PROJECT_DIR$/static/css/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/about.css.map" afterPath="$PROJECT_DIR$/static/css/about.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.info.css" afterPath="$PROJECT_DIR$/static/css/blog.info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.info.css.map" afterPath="$PROJECT_DIR$/static/css/blog.info.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.list.css" afterPath="$PROJECT_DIR$/static/css/blog.list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.list.css.map" afterPath="$PROJECT_DIR$/static/css/blog.list.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css.map" afterPath="$PROJECT_DIR$/static/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/originality.list.css" afterPath="$PROJECT_DIR$/static/css/originality.list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/originality.list.css.map" afterPath="$PROJECT_DIR$/static/css/originality.list.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/personal.css" afterPath="$PROJECT_DIR$/static/css/personal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/personal.css.map" afterPath="$PROJECT_DIR$/static/css/personal.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/blog.info.scss" afterPath="$PROJECT_DIR$/static/sass/blog.info.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/blog.list.scss" afterPath="$PROJECT_DIR$/static/sass/blog.list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/function.scss" afterPath="$PROJECT_DIR$/static/sass/function.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/index.scss" afterPath="$PROJECT_DIR$/static/sass/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/nav.scss" afterPath="$PROJECT_DIR$/static/sass/nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/originality.list.scss" afterPath="$PROJECT_DIR$/static/sass/originality.list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/personal.scss" afterPath="$PROJECT_DIR$/static/sass/personal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/about.html" afterPath="$PROJECT_DIR$/template/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/blog.info.html" afterPath="$PROJECT_DIR$/template/blog.info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/blog.list.html" afterPath="$PROJECT_DIR$/template/blog.list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/originality.list.html" afterPath="$PROJECT_DIR$/template/originality.list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/personal.html" afterPath="$PROJECT_DIR$/template/personal.html" />
     </list>
     <ignored path="PC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qiu.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qiu.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jade/qiu.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
@@ -81,6 +50,16 @@
               <folding>
                 <element signature="n#div#0;n#block#2;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/json/nav.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,12 +150,12 @@
         <option value="$PROJECT_DIR$/jade/index.jade" />
         <option value="$PROJECT_DIR$/jade/layout.jade" />
         <option value="$PROJECT_DIR$/jade/about.jade" />
-        <option value="$PROJECT_DIR$/data/json/nav.json" />
         <option value="$PROJECT_DIR$/jade/admin.jade" />
         <option value="$PROJECT_DIR$/static/js/qiu.js" />
         <option value="$PROJECT_DIR$/template/qiu.html" />
         <option value="$PROJECT_DIR$/static/sass/qiu.scss" />
         <option value="$PROJECT_DIR$/jade/qiu.jade" />
+        <option value="$PROJECT_DIR$/data/json/nav.json" />
       </list>
     </option>
   </component>
@@ -249,7 +228,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,7 +242,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,18 +396,18 @@
       <workItem from="1474365658568" duration="312000" />
       <workItem from="1474421679756" duration="11897000" />
       <workItem from="1474448140153" duration="4453000" />
-      <workItem from="1474507234757" duration="18211000" />
+      <workItem from="1474507234757" duration="18396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186376000" />
+    <option name="totallyTimeSpent" value="186561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -758,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/json/nav.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jade/about.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -832,6 +807,14 @@
           <folding>
             <element signature="n#div#0;n#block#2;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/json/nav.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
