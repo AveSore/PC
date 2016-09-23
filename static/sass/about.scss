@@ -23,14 +23,12 @@ body{
       margin: 0 auto;
     }
     .col-md-3{
-      padding: 0 0 60px 0;
       background: #234463;
       .desc{
         & {
-          min-height: 500px;
           background: $descBgColor;
           color: $descColor;
-          padding: 50px 0 100px 0;
+          padding: 50px 0;
         }
         .img {
           width: 130px;
@@ -38,10 +36,10 @@ body{
           overflow: hidden;
           margin: 0 auto 50px auto;
           border: 5px solid $descColor;
-        }
-        img {
-          width: 130px;
-          height: 180px;
+          img {
+            width: 130px;
+            height: 180px;
+          }
         }
         .person-info{
           & {
@@ -75,6 +73,7 @@ body{
         .hobby{
           & {
             width: 160px;
+            overflow: hidden;
           }
           li {
             & {
@@ -98,7 +97,6 @@ body{
       }
     }
     .col-md-9{
-      padding: 0;
       .content{
         & {
           min-height: 500px;
@@ -138,6 +136,92 @@ body{
               margin: 0 0 10px -47px;
               float: left;
             }
+          }
+        }
+      }
+    }
+  }
+  @include screen(0,767px){
+    #content{
+      .col-md-3{
+        background: transparent;
+        .desc{
+          background: transparent;
+          .img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 10px auto;
+            border: 5px solid $descColor;
+            img {
+              width: 180px;
+              height: 180px;
+              border-radius: 50%;
+            }
+          }
+          .person-info{
+            width: 100%;
+            overflow: hidden;
+            padding-left: 12px;
+          }
+          .skill{
+            display: none;
+          }
+          .hobby-title{
+            display: none;
+          }
+          .hobby{
+            display: none;
+          }
+        }
+      }
+    }
+
+  }
+  @media screen  and ( min-width: 768px ) and (max-width: 991px ){
+    #content{
+      .col-md-3{
+        background: transparent;
+        .desc{
+          background: transparent;
+          .img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 10px auto;
+            border: 5px solid $descColor;
+            img {
+              width: 180px;
+              height: 180px;
+              border-radius: 50%;
+            }
+          }
+          .person-info{
+            width: 100%;
+            overflow: hidden;
+            li{
+              width: 50%;
+              float: left;
+              &:nth-child(1){
+                text-align: right;
+                padding-right: 100px;
+              }
+              &:nth-child(3){
+                text-align: right;
+                padding-right: 50px;
+              }
+            }
+          }
+          .skill{
+            display: none;
+          }
+          .hobby-title{
+            display: none;
+          }
+          .hobby{
+            display: none;
           }
         }
       }

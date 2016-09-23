@@ -30,6 +30,10 @@ html{
     height: 40px;
     margin: 0 auto;
     cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -75px;
     #shape{
       fill: transparent;
       stroke-width: 6px;

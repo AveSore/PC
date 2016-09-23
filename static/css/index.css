@@ -187,7 +187,11 @@ html {
   width: 150px;
   height: 40px;
   margin: 0 auto;
-  cursor: pointer; }
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -75px; }
   .content .button #shape {
     fill: transparent;
     stroke-width: 6px;

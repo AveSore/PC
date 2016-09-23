@@ -166,22 +166,20 @@ body {
     width: 80%;
     margin: 0 auto; }
   body #content .col-md-3 {
-    padding: 0 0 60px 0;
     background: #234463; }
     body #content .col-md-3 .desc {
-      min-height: 500px;
       background: #234463;
       color: #e3effb;
-      padding: 50px 0 100px 0; }
+      padding: 50px 0; }
     body #content .col-md-3 .desc .img {
       width: 130px;
       height: 180px;
       overflow: hidden;
       margin: 0 auto 50px auto;
       border: 5px solid #e3effb; }
-    body #content .col-md-3 .desc img {
-      width: 130px;
-      height: 180px; }
+      body #content .col-md-3 .desc .img img {
+        width: 130px;
+        height: 180px; }
     body #content .col-md-3 .desc .person-info {
       width: 160px;
       margin: 0 0 0 20px; }
@@ -202,7 +200,8 @@ body {
       font-weight: bold;
       margin: 70px 0 0 20px; }
     body #content .col-md-3 .desc .hobby {
-      width: 160px; }
+      width: 160px;
+      overflow: hidden; }
     body #content .col-md-3 .desc .hobby li {
       float: left;
       width: 50%;
@@ -217,33 +216,91 @@ body {
       line-height: 40px;
       display: block;
       margin: 0 0 20px 20px; }
-  body #content .col-md-9 {
-    padding: 0; }
-    body #content .col-md-9 .content {
-      min-height: 500px;
-      color: #234463;
-      margin: 0 40px; }
-    body #content .col-md-9 .content h1.name {
-      margin: 20px 0;
-      font-weight: 900; }
-    body #content .col-md-9 .content p.target {
-      margin-bottom: 40px;
-      font-weight: bold; }
-    body #content .col-md-9 .content .list {
-      margin: 20px 0; }
-    body #content .col-md-9 .content .list .info {
-      margin-bottom: 20px; }
-    body #content .col-md-9 .content .list .info span {
-      display: inline-block;
-      color: #234463;
-      margin-right: 30px; }
-    body #content .col-md-9 .content .list h2 {
-      border-bottom: 2px solid #234463;
-      margin: 0 0 10px 50px;
-      height: 50px; }
-    body #content .col-md-9 .content .list h2 i {
-      font-size: 40px;
-      margin: 0 0 10px -47px;
-      float: left; }
+  body #content .col-md-9 .content {
+    min-height: 500px;
+    color: #234463;
+    margin: 0 40px; }
+  body #content .col-md-9 .content h1.name {
+    margin: 20px 0;
+    font-weight: 900; }
+  body #content .col-md-9 .content p.target {
+    margin-bottom: 40px;
+    font-weight: bold; }
+  body #content .col-md-9 .content .list {
+    margin: 20px 0; }
+  body #content .col-md-9 .content .list .info {
+    margin-bottom: 20px; }
+  body #content .col-md-9 .content .list .info span {
+    display: inline-block;
+    color: #234463;
+    margin-right: 30px; }
+  body #content .col-md-9 .content .list h2 {
+    border-bottom: 2px solid #234463;
+    margin: 0 0 10px 50px;
+    height: 50px; }
+  body #content .col-md-9 .content .list h2 i {
+    font-size: 40px;
+    margin: 0 0 10px -47px;
+    float: left; }
+  @media screen and (min-width: 0) and (max-width: 767px) {
+    body #content .col-md-3 {
+      background: transparent; }
+      body #content .col-md-3 .desc {
+        background: transparent; }
+        body #content .col-md-3 .desc .img {
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin: 0 auto 10px auto;
+          border: 5px solid #e3effb; }
+          body #content .col-md-3 .desc .img img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%; }
+        body #content .col-md-3 .desc .person-info {
+          width: 100%;
+          overflow: hidden;
+          padding-left: 12px; }
+        body #content .col-md-3 .desc .skill {
+          display: none; }
+        body #content .col-md-3 .desc .hobby-title {
+          display: none; }
+        body #content .col-md-3 .desc .hobby {
+          display: none; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    body #content .col-md-3 {
+      background: transparent; }
+      body #content .col-md-3 .desc {
+        background: transparent; }
+        body #content .col-md-3 .desc .img {
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin: 0 auto 10px auto;
+          border: 5px solid #e3effb; }
+          body #content .col-md-3 .desc .img img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%; }
+        body #content .col-md-3 .desc .person-info {
+          width: 100%;
+          overflow: hidden; }
+          body #content .col-md-3 .desc .person-info li {
+            width: 50%;
+            float: left; }
+            body #content .col-md-3 .desc .person-info li:nth-child(1) {
+              text-align: right;
+              padding-right: 100px; }
+            body #content .col-md-3 .desc .person-info li:nth-child(3) {
+              text-align: right;
+              padding-right: 50px; }
+        body #content .col-md-3 .desc .skill {
+          display: none; }
+        body #content .col-md-3 .desc .hobby-title {
+          display: none; }
+        body #content .col-md-3 .desc .hobby {
+          display: none; } }
 
 /*# sourceMappingURL=about.css.map */
