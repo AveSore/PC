@@ -117,7 +117,6 @@ body{
           }
           .info{
             & {
-              margin-bottom: 20px;
             }
             span{
               display: inline-block;
@@ -135,6 +134,25 @@ body{
               font-size: 40px;
               margin: 0 0 10px -47px;
               float: left;
+            }
+          }
+          p{
+            &{
+              text-indent: 2em;
+              margin-top: 5px;
+            }
+            &.block{
+              text-indent: 0;
+              margin-top: 30px;
+              display: inline-block;
+            }
+            &.title{
+              text-indent: 0;
+              display: inline-block;
+            }
+            &.time{
+              text-indent: 0;
+              display: inline-block;
             }
           }
         }

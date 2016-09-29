@@ -228,8 +228,6 @@ body {
     font-weight: bold; }
   body #content .col-md-9 .content .list {
     margin: 20px 0; }
-  body #content .col-md-9 .content .list .info {
-    margin-bottom: 20px; }
   body #content .col-md-9 .content .list .info span {
     display: inline-block;
     color: #234463;
@@ -242,6 +240,19 @@ body {
     font-size: 40px;
     margin: 0 0 10px -47px;
     float: left; }
+  body #content .col-md-9 .content .list p {
+    text-indent: 2em;
+    margin-top: 5px; }
+  body #content .col-md-9 .content .list p.block {
+    text-indent: 0;
+    margin-top: 30px;
+    display: inline-block; }
+  body #content .col-md-9 .content .list p.title {
+    text-indent: 0;
+    display: inline-block; }
+  body #content .col-md-9 .content .list p.time {
+    text-indent: 0;
+    display: inline-block; }
   @media screen and (min-width: 0) and (max-width: 767px) {
     body #content .col-md-3 {
       background: transparent; }
